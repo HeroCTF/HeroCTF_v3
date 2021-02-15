@@ -12,7 +12,8 @@ Discord : https://discord.gg/PhNkPrfeJG
 
 | Name                                                             | Category      | Author     | Score  |
 |------------------------------------------------------------------|:-------------:|:----------:|:------:|
-| [NameOfChall](Forensics/NameOfChall)                             | Forensics     | xanhacks   | 25     |
+| [PwnQL #1](Web/PwnQL_1)                                          | Web           | xanhacks   | 60     |
+| [PwnQL #2](Web/PwnQL_2)                                          | Web           | xanhacks   | 100    |
 
 
 
