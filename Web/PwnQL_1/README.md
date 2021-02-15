@@ -1,4 +1,4 @@
-# PwnQL #2
+# PwnQL #1
 
 ### Category
 
@@ -16,6 +16,11 @@ Author : **xanhacks**
 ### Write up
 
 After looking at the source code of the page, we can find a hint about a file named **login.php.bak**.
+
+```html
+<!-- Hello dev, do not forget to remove login.php.bak before committing your code. -->
+```
+
 We can download this file ! Let's look at this content.
 
 ```php
@@ -25,8 +30,7 @@ $sth->execute(array(':username' => $username, ':password' => $password));
 $users = $sth->fetchAll();
 ```
 
-The query is prepared, so we cannot do a SQL injection but the query itself is vulnerable. The *LIKE* function is used !
-The percentage (%) matches any string of zero or more characters in the *LIKE* function.
+The query is prepared, so we cannot do a SQL injection but the query itself is vulnerable. The *LIKE* function is used, so the percentage (%) will match any string of zero or more characters (any passwords).
 
 ```
 username : admin
