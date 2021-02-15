@@ -4,7 +4,7 @@
 
 HeroCTF is an online CTF (Capture The Flag) for beginner / intermediate players.
 
-Site Web : https://www.heroctf.fr/ <br>
+Website : https://www.heroctf.fr/ <br>
 Twitter : https://twitter.com/HeroCTF <br>
 Discord : https://discord.gg/PhNkPrfeJG
 
