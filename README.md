@@ -10,9 +10,9 @@ Discord : https://discord.gg/PhNkPrfeJG
 
 # Challenges
 
-| Nom                                                              | Catégorie     | Auteur     | Points |
+| Name                                                             | Category      | Author     | Score  |
 |------------------------------------------------------------------|:-------------:|:----------:|:------:|
-| [NameOfChall](Category/NameOfChall)                              | Algo          | xanhacks   | 25     |
+| [NameOfChall](Forensics/NameOfChall)                             | Forensics     | xanhacks   | 25     |
 
 
 
