@@ -12,8 +12,9 @@ Discord : https://discord.gg/PhNkPrfeJG
 
 | Name                                                             | Category      | Author     | Score  |
 |------------------------------------------------------------------|:-------------:|:----------:|:------:|
-| [PwnQL #1](Web/PwnQL_1)                                          | Web           | xanhacks   | 60     |
-| [PwnQL #2](Web/PwnQL_2)                                          | Web           | xanhacks   | 100    |
+| [Russian doll](Misc/Russian_doll)                                | Misc          | Enarior    | 50     |
+| [PwnQL #1](Web/PwnQL_1)                                          | Web           | xanhacks   | 50     |
+| [PwnQL #2](Web/PwnQL_2)                                          | Web           | xanhacks   | 75     |
 
 
 
