@@ -46,7 +46,7 @@ Hero{if_yOu_gOt_HEre_By_clIcKInG_mANnUaLly_YoU_sHOuLd_REalLy_SeE_SoMeOne}
 
 #### by xanhacks
 
-The following command tells you that a file named `flag.txt` exist.
+The following command tells you that a file named `flag.txt` exists.
 
 ```shell
 $ find . | grep flag
