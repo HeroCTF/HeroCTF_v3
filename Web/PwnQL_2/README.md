@@ -30,7 +30,7 @@ password : d% -> login success
 The admin's password starts with the letter 'd'.
 ```
 
-Let's make a python to script to do the job for us.
+Let's make a python to script which do the job for us.
 
 ```python
 #!/usr/bin/env python3
@@ -67,4 +67,4 @@ flag : s3cur3p@ss
 
 ### Flag
 
-Hero{s3cur3P@ss}
+Hero{s3cur3p@ss}
