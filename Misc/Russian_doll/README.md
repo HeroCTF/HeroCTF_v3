@@ -24,6 +24,8 @@ Just a simple bash script that `cd` into the next folder if the destination cont
 ```shell
 #!/usr/bin/env bash
 
+unzip -q archive.zip
+
 folder=you
 nb=1
 
