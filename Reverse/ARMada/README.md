@@ -84,4 +84,4 @@ if __name__ == "__main__":
 
 ### Flag
 
-Hero{0h_w0W_s0_y0u_no1c3d_1t_w4s_cust0m_b64_?}
+Hero{0h_w0W_s0_y0u_not1c3d_1t_w4s_cust0m_b64_?}
