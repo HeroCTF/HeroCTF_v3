@@ -16,6 +16,10 @@ Author : **xanhacks**
 - [xor.py](xor.py)
 - [flag.png.enc](flag.png.enc)
 
+### Hints
+
+The **xor** function is from the **pwntools** module.
+
 ### Write up
 
 We know that if **flag ^ key = enc**, then **enc ^ key = flag**. So, we need to recover the key.
