@@ -46,6 +46,10 @@ for i in range(10):
     flag.write(xor(flag_enc, key + bytes([i])))
 ```
 
+Let's check the 10 images. Bingo, the last image was valid !
+
+![flag](flag.png)
+
 ### Flag
 
 Hero{123_xor_321}
