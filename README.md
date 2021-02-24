@@ -14,10 +14,10 @@ Discord : https://discord.gg/PhNkPrfeJG
 |------------------------------------------------------------------|:-------------:|:----------:|:------:|
 | [h4XOR](Crypto/h4XOR)                                            | Crypto        | xanhacks   | 75     |
 | [Russian doll](Misc/Russian_doll)                                | Misc          | Enarior    | 50     |
-| [Social ID #1](OSINT/SocialID_1)                                 | OSINT         | xanhacks   | 15     |
+| [Social ID #1](OSINT/Social_ID_1)                                | OSINT         | xanhacks   | 15     |
 | [Pushhh](OSINT/Pushhh)                                           | OSINT         | xanhacks   | 35     |
 | [ProtonDate](OSINT/ProtonDate)                                   | OSINT         | xanhacks   | 40     |
-| [Social ID #2](OSINT/SocialID_2)                                 | OSINT         | xanhacks   | 50     |
+| [Social ID #2](OSINT/Social_ID_2)                                | OSINT         | xanhacks   | 50     |
 | [PwnQL #1](Web/PwnQL_1)                                          | Web           | xanhacks   | 50     |
 | [0xSSRF](Web/0xSSRF)                                             | Web           | xanhacks   | 50     |
 | [PwnQL #2](Web/PwnQL_2)                                          | Web           | xanhacks   | 75     |
