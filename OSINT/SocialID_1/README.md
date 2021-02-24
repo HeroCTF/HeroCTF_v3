@@ -17,7 +17,7 @@ Not really a hint, but I recommend you to check out this link, https://www.aware
 
 ### Write up
 
-You can simply check at the source code of the page, https://twitter.com/HeroCTF or use this website https://tweeterid.com/.
+You can simply use this website https://tweeterid.com/.
 
 ### Flag
 
