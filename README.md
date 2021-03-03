@@ -22,6 +22,7 @@ Discord : https://discord.gg/PhNkPrfeJG
 | [PwnQL #1](Web/PwnQL_1)                                          | Web           | xanhacks   | 50     |
 | [0xSSRF](Web/0xSSRF)                                             | Web           | xanhacks   | 50     |
 | [PwnQL #2](Web/PwnQL_2)                                          | Web           | xanhacks   | 75     |
+| [JNI](Reverse/JNI)                                               | Reverse       | xanhacks   | 125    |
 | [ARMada](Reverse/ARMada)                                         | Reverse       | SoEasY     | 300    |
 
 
