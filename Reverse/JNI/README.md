@@ -47,7 +47,7 @@ In the smali code of the MainActivity, we can see that the constructor loads a n
 
 Now lets look at the submitFlag() function.
 
-```
+```smali
 .method private submitFlag()V
     .locals 3
 
