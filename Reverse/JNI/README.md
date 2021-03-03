@@ -130,7 +130,7 @@ $ tree
 4 directories, 4 files
 ```
 
-This librairy is compiled in multiple architectures. After decompiling one of those with Ghidra, you will have the following code :
+This librairy is compiled in multiple architectures. After decompiling the one you prefer with Ghidra, you will have about the following code :
 
 ```cpp
 uint Java_fr_heroctf_jni_MainActivity_checkFlag
