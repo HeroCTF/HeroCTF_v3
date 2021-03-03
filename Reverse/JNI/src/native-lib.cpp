@@ -1,6 +1,5 @@
 #include <jni.h>
 #include <string>
-#include <cmath>
 
 using namespace std;
 
