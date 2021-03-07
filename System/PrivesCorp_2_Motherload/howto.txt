@@ -1,0 +1,4 @@
+
+You were contracted (for a lot of a money) by l'Hackonfrerie to steal some financial data. Extra money is always nice.
+You credentials on PrivesCorp network -> bob:password123
+
