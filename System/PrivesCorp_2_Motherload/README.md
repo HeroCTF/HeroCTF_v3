@@ -20,12 +20,12 @@ Author : **Log_s**
 
 ### Write up
 
-The mistake that was made here is to use relative path for a system command instead of absolute. ```~~ls -ld~~ -> /bin/ls -ld```
+The mistake that was made here is to use relative path for a system command instead of absolute. ~~```ls -ld```~~ -> ```/bin/ls -ld```.
 This mistake allows us to trick the program in executing our own **ls** command. As *exportSafePerms* has SUID enabled, user bob is able to run it with the accountant's privileges (and therefor read the flag).
 
 ```echo "cat .financial.txt" > ls && chmod +x ls```
 
-Now that we have our own **ls**, we juste have to indicate the system to run this one, instead of the legit one.
+Now that we have our own **ls**, we just have to indicate the system to run this one, instead of the legit one.
 
 ```export PATH=.:$PATH```
 
