@@ -2,6 +2,6 @@ Hey you !
 
 Welcome to privesCorp. Your arrival is perfeclty timed. We juste configured a new state of the art backup system :)
 
-Every minute, your home directory will be saved to /var/backups. Never loose data again !
+Every minute, your entire home directory will be saved to /var/backups. Never loose data again !
 
 Have fun doing boring work !
