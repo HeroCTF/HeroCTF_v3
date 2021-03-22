@@ -23,7 +23,8 @@ Discord : https://discord.gg/PhNkPrfeJG
 | [0xSSRF](Web/0xSSRF)                                             | Web           | xanhacks   | 50     |
 | [PwnQL #2](Web/PwnQL_2)                                          | Web           | xanhacks   | 75     |
 | [JNI](Reverse/JNI)                                               | Reverse       | xanhacks   | 125    |
-| [ARMada](Reverse/ARMada)                                         | Reverse       | SoEasY     | 300    |
+| [ARMada](Reverse/ARMada)                                         | Reverse       | SoEasY     | 200    |
+| [RustInPeace](Reverse/RustInPeace)                               | Reverse       | SoEasY     | 200    |
 
 
 **Total : XX challenges (XXXX points)**
