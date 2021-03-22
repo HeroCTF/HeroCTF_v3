@@ -25,6 +25,6 @@ Discord : https://discord.gg/PhNkPrfeJG
 | [JNI](Reverse/JNI)                                               | Reverse       | xanhacks   | 125    |
 | [ARMada](Reverse/ARMada)                                         | Reverse       | SoEasY     | 200    |
 | [RustInPeace](Reverse/RustInPeace)                               | Reverse       | SoEasY     | 200    |
-
+| [sELF control](Reverse/sELF%20control)                           | Reverse       | SoEasY     | 150    |
 
 **Total : XX challenges (XXXX points)**
