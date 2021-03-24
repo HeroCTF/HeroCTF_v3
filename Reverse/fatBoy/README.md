@@ -20,7 +20,9 @@ Author : **SoEasY**
 ### Write up
 
 We can notive that this file is a universal mach-o, which means that it can be runned on multiple architectures.
+
 The algorithm is a simple Vinegère cipher with a key unxored at the begining of the encryption function.
+
 After solving the challenge in x86_64, we find the flag "Hero{IMSORRYBUTTHISISNOTTHEFLAG}" with the key "BESTRONG", and we have to reverse the ARM version to find the good flag which is "Hero{WTFISTHISFUCKINGFILEFORMAT}" with the key "FATMACHO".
 
 
