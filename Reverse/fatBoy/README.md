@@ -1,6 +1,6 @@
 # fatBoy
 
-## TODO : Add césar cipher on top of vinegère
+## TODO : Add caesar cipher on top of vinegere
 
 ### Category
 
