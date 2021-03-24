@@ -1,5 +1,7 @@
 # fatBoy
 
+## TODO : Add césar cipher on top of vinegère
+
 ### Category
 
 Reverse
