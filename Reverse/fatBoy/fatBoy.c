@@ -1,6 +1,7 @@
 #include "TargetConditionals.h"
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 #if TARGET_CPU_ARM64
     // WTFISTHISFUCKINGFILEFORMAT
@@ -76,5 +77,5 @@ int main(int argc, const char * argv[]) {
         printf("\nNope... Try harder :)\n");
     }
 
-    return 0;
+    return EXIT_SUCCESS;
 }
