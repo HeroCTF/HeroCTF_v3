@@ -13,8 +13,9 @@ Discord : https://discord.gg/PhNkPrfeJG
 | Name                                                             | Category      | Author     | Score  |
 |------------------------------------------------------------------|:-------------:|:----------:|:------:|
 | [h4XOR](Crypto/h4XOR)                                            | Crypto        | xanhacks   | 75     |
+| [Discord](Misc/Discord)                                          | Misc          | xanhacks   | 1      |
+| [Record](Misc/Record)                                            | Misc          | xanhacks   | 15     |
 | [Russian doll](Misc/Russian_doll)                                | Misc          | Enarior    | 50     |
-| [Discord](Misc/Discord)                                          | Misc          | xanhacks   | 0      |
 | [Social ID #1](OSINT/Social_ID_1)                                | OSINT         | xanhacks   | 15     |
 | [Pushhh](OSINT/Pushhh)                                           | OSINT         | xanhacks   | 35     |
 | [ProtonDate](OSINT/ProtonDate)                                   | OSINT         | xanhacks   | 40     |
