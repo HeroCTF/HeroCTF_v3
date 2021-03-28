@@ -1,13 +1,12 @@
 FROM ubuntu:18.04
 
 RUN apt update && apt install openssh-server sudo -y
+RUN chmod -x /etc/update-motd.d/*
 
-RUN adduser --disabled-password --gecos "" bob
-RUN rm -rf /home/bob/.b* /home/bob/.profile
+RUN adduser --no-create-home --disabled-password --gecos "" bob
+RUN mkdir /home/bob
 RUN chmod 777 /home/bob/
 RUN echo 'bob:password123' | chpasswd
-
-RUN adduser --no-create-home --disabled-password --gecos "" accountant
 
 RUN mkdir -p /run/sshd
 

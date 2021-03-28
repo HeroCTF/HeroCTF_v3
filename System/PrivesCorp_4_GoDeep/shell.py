@@ -5,10 +5,13 @@ import re
 # Definition of needed vars and functions
 _86924=open
 vars = modules[__name__].__dict__
-args = argv
+try:
+    ssh_arg = argv[2]
+except:
+    pass
 forbidden = ["TO_KEEP", "dir", "flag", "_86924", "secret/879.txt"]
 TO_KEEP = {}
-flag = "Hero{Th1s_w4s_t0O_e4sY}" # fake flag to find when typing dir()
+flag = "fake{NOP_LOL}"
 def clear_vars(vars):
     global TO_KEEP
     to_empty = []
@@ -25,17 +28,17 @@ del modules
 __builtins__.__dict__["open"] = ""
 
 # Checking entry conditions
-if (len(args) < 3):
-    print("That's a bit short, you have to ask nicely")
+if (len(argv) < 3):
+    print("That's a bit short, you have to ask nicely\n")
     exit()
 try:
-    if(re.match(re.compile("^[^A-RT-Za-z0-9]e[s].$"), args[2][0]+args[2][1]+args[2][2]+args[2][3]) == None or args[2][3]+args[2][4]+args[2][5] != chr(97)+chr(109)+chr(101)):
-        print("That's better, but what's the magik word ?")
+    if(re.match(re.compile("^[^A-RT-Za-z0-9]e[s].$"), ssh_arg[0]+ssh_arg[1]+ssh_arg[2]+ssh_arg[3]) == None or ssh_arg[3]+ssh_arg[4]+ssh_arg[5] != chr(97)+chr(109)+chr(101)):
+        print("That's better, but what's the magik word ?\n")
         exit()
 except:
     # faking error for docker
     print("Traceback (most recent call last):")
-    print(' File "/home/leo/Documents/HeroCTF/system/PrivesCorp_4_GoDeep/./shell.py", line 32, in <module>')
+    print(' File "/home/bob/shell.py", line 32, in <module>')
     print('  if(re.match(re.compile("^[^A-RT-Za-z0-9]e[s].$"), args[2][0]+args[2][1]+args[2][2]+args[2][3]) == None or args[2][3]+args[2][4]+args[2][5] != chr(97)+chr(109)+chr(101)):')
     print('IndexError: string index out of range')
     exit()
@@ -54,7 +57,7 @@ while True:
     try:
         res = {'res': None}
         cmd = input("bob@godeep > ")[:39]
-        if (cmd == "exit"):
+        if cmd == "exit":
             exit()
         for f in forbidden:
             cmd = cmd.replace(f, "")
@@ -70,6 +73,9 @@ while True:
             print()
 
         clear_vars(vars) # Clearing the variables to avoid the forgery of payloads in multiple commands
+    
+    except FileNotFoundError:
+        print("Can't open something that doesn't exist. Makes sense right ?")
     except:
         print("Oups, something went wrong")
         exit()
