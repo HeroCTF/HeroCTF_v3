@@ -27,5 +27,8 @@ Discord : https://discord.gg/PhNkPrfeJG
 | [ARMada](Reverse/ARMada)                                         | Reverse       | SoEasY     | 200    |
 | [RustInPeace](Reverse/RustInPeace)                               | Reverse       | SoEasY     | 200    |
 | [sELF control](Reverse/sELF%20control)                           | Reverse       | SoEasY     | 150    |
+| [PrivesCorp#1 : Probation](System/PrivesCorp_1_Probation)        | System        | Log_s      | xxx    |
+| [PrivesCorp#2 : Motherload](System/PrivesCorp_2_Motherload)      | System        | Log_s      | xxx    |
+| [PrivesCorp#3 : HelpMe](System/PrivesCorp_3_HelpMe)              | System        | Log_s      | xxx    |
 
 **Total : XX challenges (XXXX points)**
