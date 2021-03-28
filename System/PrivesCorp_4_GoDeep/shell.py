@@ -3,6 +3,7 @@ from sys import modules, argv
 import re
 
 # Definition of needed vars and functions
+_86924=open
 vars = modules[__name__].__dict__
 args = argv
 forbidden = ["TO_KEEP", "dir", "flag", "_86924", "secret/879.txt"]
@@ -16,7 +17,6 @@ def clear_vars(vars):
             to_empty.append(e)
     for e in to_empty:
         del vars[e]
-_86924=open
 TO_KEEP = vars.copy()
 
 # clearing modules
