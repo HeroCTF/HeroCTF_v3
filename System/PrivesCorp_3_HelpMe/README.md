@@ -44,7 +44,7 @@ In his home directory, a binary gives us the password for hr : *$3cur3_l0l*. **s
 
 ```
 ssh hr@ip
-password : $3cur3_l0
+password : $3cur3_l0l
 ```
 
 Here you go ! Lot's of steps, but it allows you to see two fairly common privelege escalations vectors.
