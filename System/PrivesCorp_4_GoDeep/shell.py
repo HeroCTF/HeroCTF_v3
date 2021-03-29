@@ -26,6 +26,7 @@ TO_KEEP = vars.copy()
 modules.clear()
 del modules
 __builtins__.__dict__["open"] = ""
+__builtins__.__dict__["open"] = ""
 
 # Checking entry conditions
 if (len(argv) < 3):
@@ -39,7 +40,7 @@ except:
     # faking error for docker
     print("Traceback (most recent call last):")
     print(' File "/home/bob/shell.py", line 32, in <module>')
-    print('  if(re.match(re.compile("^[^A-RT-Za-z0-9]e[s].$"), args[2][0]+args[2][1]+args[2][2]+args[2][3]) == None or args[2][3]+args[2][4]+args[2][5] != chr(97)+chr(109)+chr(101)):')
+    print('  if(re.match(re.compile("^[^A-RT-Za-z0-9]e[s].$"), ssh_arg[0]+ssh_arg[1]+ssh_arg[2]+ssh_arg[3]) == None or ssh_arg[3]+ssh_arg[4]+ssh_arg[5] != chr(97)+chr(109)+chr(101)):')
     print('IndexError: string index out of range')
     exit()
 
@@ -62,10 +63,10 @@ while True:
         for f in forbidden:
             cmd = cmd.replace(f, "")
         del f
-        if "forbidden" in cmd or "vars" in cmd or "sys" in cmd or "__builtins__" in cmd or "__dict__" in cmd or "eval" in cmd or "import" in cmd or "globals" in cmd or ("TO_KEEP" and "[") in cmd:
+        if "forbidden" in cmd or "vars" in cmd or "sys" in cmd or "__builtins__" in cmd or "__dict__" in cmd or "eval" in cmd or "import" in cmd or "globals" in cmd or "exec" in cmd or "locals" in cmd or ("TO_KEEP" and "[") in cmd:
             print("You can't touch that one sorry\n")
         else:
-            print("---> ", cmd)
+            print("--->", cmd)
             if cmd == "":
                 cmd = "print('Command looks empty')"
             exec("res="+cmd, res["res"])
@@ -77,5 +78,5 @@ while True:
     except FileNotFoundError:
         print("Can't open something that doesn't exist. Makes sense right ?")
     except:
-        print("Oups, something went wrong")
+        print("Oups, something went wrong. Wait ?? Did you break something ?")
         exit()
