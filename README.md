@@ -30,5 +30,6 @@ Discord : https://discord.gg/PhNkPrfeJG
 | [PrivesCorp#1 : Probation](System/PrivesCorp_1_Probation)        | System        | Log_s      | xxx    |
 | [PrivesCorp#2 : Motherload](System/PrivesCorp_2_Motherload)      | System        | Log_s      | xxx    |
 | [PrivesCorp#3 : HelpMe](System/PrivesCorp_3_HelpMe)              | System        | Log_s      | xxx    |
+| [WHITE](Steganography/WHITE)                                     | Steganography | SoEasY     | 40     |
 
 **Total : XX challenges (XXXX points)**
