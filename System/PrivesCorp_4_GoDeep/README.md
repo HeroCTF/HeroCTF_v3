@@ -17,7 +17,6 @@ Author : **Log_s**
 ### Hints
 
  - You can pass arguments through SSH
- - Having a shell is great, but sometimes it's better to settle for less
 
 ### Write up
 
