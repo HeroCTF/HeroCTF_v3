@@ -15,6 +15,10 @@ URL : http://challs.heroctf.fr:XXXX
 Format : **Hero{flag}**<br>
 Author : **Log_s**
 
+### Hints
+
+ - Don't forget to check what you can run as root without password
+
 ### Write up
 
 In this challenge, you can run the script `/bin/assistant.py` as root. Let's take a look at the script.
