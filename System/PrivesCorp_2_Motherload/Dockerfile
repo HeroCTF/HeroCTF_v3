@@ -22,6 +22,7 @@ RUN chown accountant:accountant /home/bob/exportSafePerms
 RUN chmod 755 /home/bob/exportSafePerms
 RUN chmod u+s /home/bob/exportSafePerms
 
+RUN chmod -x /etc/update-motd.d/*
 EXPOSE 22
 
 CMD ["/usr/sbin/sshd", "-D"]

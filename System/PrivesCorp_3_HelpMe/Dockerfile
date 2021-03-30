@@ -41,6 +41,7 @@ COPY passManager /home/util/
 
 RUN rm -rf /bin/su
 
+RUN chmod -x /etc/update-motd.d/*
 EXPOSE 22
 
 CMD ["/usr/sbin/sshd", "-D"]

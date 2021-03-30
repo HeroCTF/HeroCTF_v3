@@ -19,6 +19,8 @@ RUN chmod +x /root/backup.sh
 RUN chmod +x /root/start.sh
 RUN chmod 500 /home/bob/locked.txt
 RUN (crontab -l 2>/dev/null; echo "* * * * * /root/backup.sh\n# new line") | crontab -
+
+RUN chmod -x /etc/update-motd.d/*
 EXPOSE 22
 
 CMD ["/root/start.sh"]
