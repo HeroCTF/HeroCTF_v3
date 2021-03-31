@@ -1,7 +1,5 @@
 # fatBoy
 
-## TODO : Add caesar cipher on top of vinegere
-
 ### Category
 
 Reverse
@@ -21,12 +19,26 @@ Author : **SoEasY**
 
 We can notive that this file is a universal mach-o, which means that it can be runned on multiple architectures.
 
-The algorithm is a simple Vinegère cipher with a key unxored at the begining of the encryption function.
+The encryption algorithm is a simple Vinegère with a ROT1 cipher. The key unxored at the begining of the encryption function.
 
 After solving the challenge in x86_64, we find the flag "Hero{IMSORRYBUTTHISISNOTTHEFLAG}" with the key "BESTRONG", and we have to reverse the ARM version to find the good flag which is "Hero{WTFISTHISFUCKINGFILEFORMAT}" with the key "FATMACHO".
 
 
 #### Solution
+
+We first need to apply a minus one on the encrypted result expected and then decode it as vinegere with the unxoreed key.
+```python
+Python 3.9.2 (default, Mar 15 2021, 17:37:51) 
+[Clang 12.0.0 (clang-1200.0.32.29)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> str = "CUZVTWPXYGOPLLVVLJFRGRZBGU"
+>>> new = ""
+>>> for i in str:
+...     new += chr(ord(i)-1)
+... 
+>>> new
+'BTYUSVOWXFNOKKUUKIEQFQYAFT'
+```
 
 ![image](https://user-images.githubusercontent.com/34216946/112377984-a8f61b80-8ce6-11eb-97ca-a814a9cd6bed.png)
 
