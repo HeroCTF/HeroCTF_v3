@@ -1,16 +1,15 @@
 #include "TargetConditionals.h"
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
 
 #if TARGET_CPU_ARM64
     // WTFISTHISFUCKINGFILEFORMAT
-    #define MSG "BTYUSVOWXFNOKKUUKIEQFQYAFT"
+    #define MSG "CUZVTWPXYGOPLLVVLJFRGRZBGU"
     const char KEY[8] = {0xb9, 0xea, 0xb1, 0xc7, 0x1d, 0x7, 0x68, 0x8};
 
 #elif TARGET_CPU_X86_64
     // IMSORRYBUTTHISISNOTTHEFLAG
-    #define MSG "JQKHIFLHVXLAZGVYOSLMYSSRBK"
+    #define MSG "KRLIJGMIWYMB[HWZPTMNZTTSCL"
     const char KEY[8] = {0xbd, 0xee, 0xb6, 0xde, 0xe, 0xb, 0x6e, 0x0};
 
 #endif
@@ -54,9 +53,10 @@ char* _(const char* msg){
  
     // encryption
     for(i = 0; i < msgLen; ++i)
-        encryptedMsg[i] = ((msg[i] + newKey[i]) % 26) + 'A';
+        encryptedMsg[i] = ((msg[i] + newKey[i]) % 26) + 'B';
     encryptedMsg[i] = '\0';
  
+    puts(encryptedMsg);
     return strdup(encryptedMsg);
 }
 
@@ -77,5 +77,5 @@ int main(int argc, const char * argv[]) {
         printf("\nNope... Try harder :)\n");
     }
 
-    return EXIT_SUCCESS;
+    return 0;
 }
