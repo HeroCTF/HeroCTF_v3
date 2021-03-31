@@ -35,7 +35,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> new = ""
 >>> for i in str:
 ...     new += chr(ord(i)-1)
-... 
 >>> new
 'BTYUSVOWXFNOKKUUKIEQFQYAFT'
 ```
