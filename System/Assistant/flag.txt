@@ -1,1 +1,1 @@
-HeroCTF{c4r3fUl1_w1th_R4cE_c0nd1tI0nS}
+Hero{c4r3fUl1_w1th_R4cE_c0nd1tI0nS}
