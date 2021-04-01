@@ -44,6 +44,8 @@ except:
     print('IndexError: string index out of range')
     exit()
 
+del re
+
 print("\nHmmm I should have bariccaded myself better then that... Now that you are here, you can't get out, so it doesn't matter ;). I made sure the document is well hidden.\n")
 print()
 print("/===================\\")
@@ -63,7 +65,7 @@ while True:
         for f in forbidden:
             cmd = cmd.replace(f, "")
         del f
-        if "forbidden" in cmd or "vars" in cmd or "sys" in cmd or "__builtins__" in cmd or "__dict__" in cmd or "eval" in cmd or "import" in cmd or "globals" in cmd or "exec" in cmd or "locals" in cmd or "./" in cmd or "__file__" in cmd or "re" in cmd or "argv" in cmd or ("TO_KEEP" and "[") in cmd:
+        if "forbidden" in cmd or "vars" in cmd or "sys" in cmd or "__builtins__" in cmd or "__dict__" in cmd or "eval" in cmd or "import" in cmd or "globals" in cmd or "exec" in cmd or "locals" in cmd or "./" in cmd or "__file__" in cmd or "argv" in cmd or ("TO_KEEP" and "[") in cmd:
             print("I can't let you do that, sorry\n")
         else:
             print("--->", cmd)
