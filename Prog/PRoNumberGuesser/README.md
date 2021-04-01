@@ -52,4 +52,4 @@ s.close()
 
 ### Flag
 
-```HeroCTF{n0t_s0_r4nd0m_4ft3r_4ll}```
+```Hero{n0t_s0_r4nd0m_4ft3r_4ll}```
