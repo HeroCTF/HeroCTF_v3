@@ -2,7 +2,7 @@
 
 import random, time
 
-FLAG = "HeroCTF{n0t_s0_r4nd0m_4ft3r_4ll}"
+FLAG = "Hero{n0t_s0_r4nd0m_4ft3r_4ll}"
 random.seed(time.time())
 t = 0
 

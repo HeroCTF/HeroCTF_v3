@@ -57,4 +57,4 @@ Run the exploit in background, and run the assistant, chose any command you want
 
 ### Flag
 
-```HeroCTF{c4r3fUl1_w1th_R4cE_c0nd1tI0nS}```
+```Hero{c4r3fUl1_w1th_R4cE_c0nd1tI0nS}```
