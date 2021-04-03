@@ -35,5 +35,6 @@ Discord : https://discord.gg/PhNkPrfeJG
 | [WHITE](Steganography/WHITE)                                     | Steganography | SoEasY     | 40     |
 | [PRo Number Guesser](Prog/PRoNumberGuesser)                      | Prog          | Log_s      | xxx    |
 | [Faster](Prog/faster)                                            | Prog          | Log_s      | xxx    |
+| [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | xxx    |
 
 **Total : XX challenges (XXXX points)**
