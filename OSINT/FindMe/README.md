@@ -23,7 +23,7 @@ Then you can read the article to find the place.
 
 ### Flag
 
-Hero{Remparts Portes Mordelaises}
-Hero{Les Portes Mordelaises}
-Hero{Portes Mordelaises}
+Hero{Remparts Portes Mordelaises}<br>
+Hero{Les Portes Mordelaises}<br>
+Hero{Portes Mordelaises}<br>
 Hero{Mordelaises}
