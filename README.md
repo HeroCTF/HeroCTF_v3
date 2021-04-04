@@ -34,6 +34,7 @@ Discord : https://discord.gg/PhNkPrfeJG
 | [PrivesCorp#4 : GoDeep](System/PrivesCorp_4_GoDeep)              | System        | Log_s      | xxx    |
 | [Assistant](System/Assistant)                                    | System        | Log_s      | xxx    |
 | [WHITE](Steganography/WHITE)                                     | Steganography | SoEasY     | 40     |
+| [Ping Pong](Prog/PingPong)                                       | Prog          | xanhacks   | 45     |
 | [PRo Number Guesser](Prog/PRoNumberGuesser)                      | Prog          | Log_s      | xxx    |
 | [Faster](Prog/faster)                                            | Prog          | Log_s      | xxx    |
 | [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | xxx    |
