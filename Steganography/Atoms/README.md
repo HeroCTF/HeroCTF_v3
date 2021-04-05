@@ -17,7 +17,7 @@ Author : **xanhacks**
 
 ### Write up
 
-Atoms (name of the challenge) + Dmitri (sender) leads us to the [periodic table of elements](https://en.wikipedia.org/wiki/Periodic_table).
+Atoms (name of the challenge) + Dmitri (sender) leads us to the [periodic table of elements](https://en.wikipedia.org/wiki/Periodic_table) created by Dmitri Mendeleev.
 
 For example:
 Mt => Meitnerium(109) => ASCII(109) => m
