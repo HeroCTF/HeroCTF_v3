@@ -12,6 +12,8 @@ Discord : https://discord.gg/PhNkPrfeJG
 
 | Name                                                             | Category      | Author     | Score  |
 |------------------------------------------------------------------|:-------------:|:----------:|:------:|
+| [DevOps User](Box/DevOps_User)                                   | Box           | xanhacks   | 150    |
+| [DevOps Root](Box/DevOps_Root)                                   | Box           | xanhacks   | 100    |
 | [h4XOR](Crypto/h4XOR)                                            | Crypto        | xanhacks   | 75     |
 | [Discord](Misc/Discord)                                          | Misc          | xanhacks   | 1      |
 | [Record](Misc/Record)                                            | Misc          | xanhacks   | 15     |
