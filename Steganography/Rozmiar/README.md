@@ -21,7 +21,7 @@ This challenge is a little more complicated... You have to know the different pn
 
 The height can be changed from 1024 to 2048 for example.
 
-![image](result.png)
+![image](result.PNG)
 
 Then the flag is shown.
 
