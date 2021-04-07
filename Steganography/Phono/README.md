@@ -8,7 +8,7 @@ Steganography
 
 Sounds like melody, no ?
 
-Format : **Hero{flag}**<br>
+Format : **HERO{messageinuppercase}**<br>
 Author : **Thib**
 
 ### Files
@@ -23,4 +23,4 @@ You can use an application available on android or iOS called "PhonoPaper". Then
 
 ### Flag
 
-HERO{Ph0n0_P4PER}
+HERO{PH0N0_P4PER}
