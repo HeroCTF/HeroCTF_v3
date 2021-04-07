@@ -42,5 +42,14 @@ Discord : https://discord.gg/PhNkPrfeJG
 | [PRo Number Guesser](Prog/PRoNumberGuesser)                      | Prog          | Log_s      | 50     |
 | [Faster](Prog/faster)                                            | Prog          | Log_s      | 75     |
 | [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | 100    |
+| [HolyAbbot](Steganography/HolyAbbot)                             | Steganography | Thib       | XXXX   |
+| [MoreMusic](Steganography/MoreMusic)                             | Steganography | Thib       | XXXX   |
+| [NicePDF](Steganography/NicePDF)                                 | Steganography | Thib       | XXXX   |
+| [Phono](Steganography/Phono)                                     | Steganography | Thib       | XXXX   |
+| [Rozmiar](Steganography/Rozmiar)                                 | Steganography | Thib       | XXXX   |
+| [ShakePNG](Steganography/Shakepng)                               | Steganography | Thib       | XXXX   |
+| [WolfgangAmadeusMozart](Steganography/WolfgangAmadeusMozart)     | Steganography | Thib       | XXXX   |
+
+
 
 **Total : XX challenges (XXXX points)**
