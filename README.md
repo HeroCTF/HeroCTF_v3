@@ -31,16 +31,28 @@ Discord : https://discord.gg/PhNkPrfeJG
 | [ARMada](Reverse/ARMada)                                         | Reverse       | SoEasY     | 200    |
 | [RustInPeace](Reverse/RustInPeace)                               | Reverse       | SoEasY     | 200    |
 | [sELF control](Reverse/sELF%20control)                           | Reverse       | SoEasY     | 150    |
-| [PrivesCorp#1 : Probation](System/PrivesCorp_1_Probation)        | System        | Log_s      | xxx    |
-| [PrivesCorp#2 : Motherload](System/PrivesCorp_2_Motherload)      | System        | Log_s      | xxx    |
-| [PrivesCorp#3 : HelpMe](System/PrivesCorp_3_HelpMe)              | System        | Log_s      | xxx    |
-| [PrivesCorp#4 : GoDeep](System/PrivesCorp_4_GoDeep)              | System        | Log_s      | xxx    |
-| [Assistant](System/Assistant)                                    | System        | Log_s      | xxx    |
+| [PrivesCorp#1 : Probation](System/PrivesCorp_1_Probation)        | System        | Log_s      | 50     |
+| [PrivesCorp#2 : Motherload](System/PrivesCorp_2_Motherload)      | System        | Log_s      | 75     |
+| [PrivesCorp#3 : HelpMe](System/PrivesCorp_3_HelpMe)              | System        | Log_s      | 100    |
+| [PrivesCorp#4 : GoDeep](System/PrivesCorp_4_GoDeep)              | System        | Log_s      | 200    |
+| [Assistant](System/Assistant)                                    | System        | Log_s      | 75     |
+| [The Dark Knight](System/TheDarkKnight)                          | System        | Log_s      | 50     |
 | [WHITE](Steganography/WHITE)                                     | Steganography | SoEasY     | 40     |
 | [Atoms](Steganography/Atoms)                                     | Steganography | xanhacks   | 50     |
+| [HolyAbbot](Steganography/HolyAbbot)                             | Steganography | Thib       | XXXX   |
+| [MoreMusic](Steganography/MoreMusic)                             | Steganography | Thib       | XXXX   |
+| [NicePDF](Steganography/NicePDF)                                 | Steganography | Thib       | XXXX   |
+| [Phono](Steganography/Phono)                                     | Steganography | Thib       | XXXX   |
+| [Rozmiar](Steganography/Rozmiar)                                 | Steganography | Thib       | XXXX   |
+| [ShakePNG](Steganography/Shakepng)                               | Steganography | Thib       | XXXX   |
+| [WolfgangAmadeusMozart](Steganography/WolfgangAmadeusMozart)     | Steganography | Thib       | XXXX   |
 | [Ping Pong](Prog/PingPong)                                       | Prog          | xanhacks   | 45     |
-| [PRo Number Guesser](Prog/PRoNumberGuesser)                      | Prog          | Log_s      | xxx    |
-| [Faster](Prog/faster)                                            | Prog          | Log_s      | xxx    |
-| [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | xxx    |
+| [PRo Number Guesser](Prog/PRoNumberGuesser)                      | Prog          | Log_s      | 50     |
+| [Faster](Prog/faster)                                            | Prog          | Log_s      | 75     |
+| [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | 100    |
+| [Puzzle Me](Prog/PuzzleMe)                                       | Prog          | Log_s      | 100    |
+
+
+
 
 **Total : XX challenges (XXXX points)**
