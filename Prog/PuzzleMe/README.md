@@ -86,7 +86,7 @@ flag.save("flag.png")
 print("[+] Done")
 ```
 
-The **patch** binary I am using is just a little C program I wrote for fast little patches. It may not be the fastest solution calling *os.system()* so many times, but I had the binary ready so it saved me some times.
+The **patch** binary I am using is just a little C program I wrote for fast little patches. It may not be the fastest solution calling *os.system()* so many times, but I had the binary ready so it saved me some time.
 ### Flag
 
 ```Hero{PuZzzZZzzzZzzzzL3}```
