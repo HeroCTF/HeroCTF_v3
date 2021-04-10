@@ -23,6 +23,7 @@ Discord : https://discord.gg/PhNkPrfeJG
 | [Pushhh](OSINT/Pushhh)                                           | OSINT         | xanhacks   | 35     |
 | [ProtonDate](OSINT/ProtonDate)                                   | OSINT         | xanhacks   | 40     |
 | [Social ID #2](OSINT/Social_ID_2)                                | OSINT         | xanhacks   | 50     |
+| [You Should Die](Web/YouShouldDie)                               | Web           | xanhacks   | 50     |
 | [PwnQL #1](Web/PwnQL_1)                                          | Web           | xanhacks   | 50     |
 | [0xSSRF](Web/0xSSRF)                                             | Web           | xanhacks   | 50     |
 | [PwnQL #2](Web/PwnQL_2)                                          | Web           | xanhacks   | 75     |
