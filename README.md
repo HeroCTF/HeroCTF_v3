@@ -49,6 +49,7 @@ Discord : https://discord.gg/PhNkPrfeJG
 | [PRo Number Guesser](Prog/PRoNumberGuesser)                      | Prog          | Log_s      | 50     |
 | [Faster](Prog/faster)                                            | Prog          | Log_s      | 75     |
 | [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | 100    |
+| [Puzzle Me](Prog/PuzzleMe)                                       | Prog          | Log_s      | 100    |
 
 
 
