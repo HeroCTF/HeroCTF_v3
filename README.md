@@ -46,6 +46,7 @@ Discord : https://discord.gg/PhNkPrfeJG
 | [Rozmiar](Steganography/Rozmiar)                                 | Steganography | Thib       | XXXX   |
 | [ShakePNG](Steganography/Shakepng)                               | Steganography | Thib       | XXXX   |
 | [WolfgangAmadeusMozart](Steganography/WolfgangAmadeusMozart)     | Steganography | Thib       | XXXX   |
+| [Winter](Steganography/Winter)                                   | Steganography | Thib       | XXXX   |
 | [Ping Pong](Prog/PingPong)                                       | Prog          | xanhacks   | 45     |
 | [PRo Number Guesser](Prog/PRoNumberGuesser)                      | Prog          | Log_s      | 50     |
 | [Faster](Prog/faster)                                            | Prog          | Log_s      | 75     |
