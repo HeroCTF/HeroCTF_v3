@@ -8,7 +8,7 @@ Steganography
 
 Such a nice colored picture... What can he be hiding?
 
-Format : **Hero{flag}**<br>
+Format : **HERO{}**<br>
 Author : **Thib**
 
 ### Files
