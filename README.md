@@ -39,14 +39,13 @@ Discord : https://discord.gg/PhNkPrfeJG
 | [The Dark Knight](System/TheDarkKnight)                          | System        | Log_s      | 50     |
 | [WHITE](Steganography/WHITE)                                     | Steganography | SoEasY     | 40     |
 | [Atoms](Steganography/Atoms)                                     | Steganography | xanhacks   | 50     |
-| [HolyAbbot](Steganography/HolyAbbot)                             | Steganography | Thib       | XXXX   |
-| [MoreMusic](Steganography/MoreMusic)                             | Steganography | Thib       | XXXX   |
-| [NicePDF](Steganography/NicePDF)                                 | Steganography | Thib       | XXXX   |
-| [Phono](Steganography/Phono)                                     | Steganography | Thib       | XXXX   |
-| [Rozmiar](Steganography/Rozmiar)                                 | Steganography | Thib       | XXXX   |
-| [ShakePNG](Steganography/Shakepng)                               | Steganography | Thib       | XXXX   |
-| [WolfgangAmadeusMozart](Steganography/WolfgangAmadeusMozart)     | Steganography | Thib       | XXXX   |
-| [Winter](Steganography/Winter)                                   | Steganography | Thib       | XXXX   |
+| [HolyAbbot](Steganography/HolyAbbot)                             | Steganography | Thib       | 15     |
+| [NicePDF](Steganography/NicePDF)                                 | Steganography | Thib       | 20     |
+| [Phono](Steganography/Phono)                                     | Steganography | Thib       | 30     |
+| [Rozmiar](Steganography/Rozmiar)                                 | Steganography | Thib       | 50     |
+| [ShakePNG](Steganography/Shakepng)                               | Steganography | Thib       | 30     |
+| [WolfgangAmadeusMozart](Steganography/WolfgangAmadeusMozart)     | Steganography | Thib       | 35     |
+| [Winter](Steganography/Winter)                                   | Steganography | Thib       | 80     |
 | [Ping Pong](Prog/PingPong)                                       | Prog          | xanhacks   | 45     |
 | [PRo Number Guesser](Prog/PRoNumberGuesser)                      | Prog          | Log_s      | 50     |
 | [Faster](Prog/faster)                                            | Prog          | Log_s      | 75     |
