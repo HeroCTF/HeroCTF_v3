@@ -8,7 +8,7 @@ Steganography
 
 Someone dropped this picture on the floor :( it's all mixed up
 
-Format : **Hero{flag}**<br>
+Format : **HERO{}**<br>
 Author : **Thib**
 
 ### Files
