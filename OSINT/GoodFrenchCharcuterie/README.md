@@ -15,19 +15,19 @@ Author : **Thib**
 
 It's a pretty basic challenge. Let's start by finding his linkedin profile. 
 
-![image](LinkedIn.png)
+![image](LinkedIn.PNG)
 
 When we look at the content, we see that she shared a screenshot of a tweet that only she liked. 
 
-![image](PostLinkedin.png)
+![image](PostLinkedin.PNG)
 
 By going back to the Twitter account in question, we look at the list of people who have liked it and we find its Twitter account.
 
-![image](TwitterLike.png)
+![image](TwitterLike.PNG)
 
 We only have to look at the list of her tweets to see that she participates in many competitions and that she also shares her email address. So all we have to do is create a phishing email and make her believe she has won a prize.
 
-![image](Contest.png)
+![image](Contest.PNG)
 
 ### Flag
 
