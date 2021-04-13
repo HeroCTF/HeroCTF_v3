@@ -8,7 +8,7 @@ Steganography
 
 Don't think to much ;)
 
-Format : **Hero{flag}**<br>
+Format : **Hero{}**<br>
 Author : **Thib**
 
 ### Files
