@@ -15,7 +15,7 @@ Author : **Thib**
 
 - NicePDF.pdf
 
-#### Solution
+#### Write up
 
 Not very complicated, just make a CTRL+A and concatenate all the white charcacter to make the flag.
 
