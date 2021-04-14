@@ -3,7 +3,7 @@ version: "3.7"
 
 services:
   pwnql:
-    build: PwnQL_1/
+    build: PwnQL/
     restart: always
     ports:
       - "8080:80"
@@ -45,3 +45,30 @@ services:
     environment:
       - FLAG_MARK3TING=${FLAG_MARK3TING}
 
+  winventorybdd:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    expose:
+      - 3306
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+      - MYSQL_USER=${SQL_USER}
+      - MYSQL_PASSWORD=${SQL_PASSWORD}
+      - MYSQL_DATABASE=${SQL_DATABASE}
+    volumes:
+      - "./winventorybdd/:/docker-entrypoint-initdb.d/"
+
+  winventory:
+    build: Winventory/
+    restart: always
+    ports:
+      - "8050:80"
+    depends_on:
+      - winventorybdd
+
+  blackmarket:
+    build: Black_Market/
+    restart: always
+    ports:
+      - "3050:3000"
