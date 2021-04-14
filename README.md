@@ -17,6 +17,7 @@ Discord : https://discord.gg/PhNkPrfeJG
 | [h4XOR](Crypto/h4XOR)                                            | Crypto        | xanhacks   | 75     |
 | [Discord](Misc/Discord)                                          | Misc          | xanhacks   | 1      |
 | [Record](Misc/Record)                                            | Misc          | xanhacks   | 15     |
+| [Cubes](Misc/Cubes)                                              | Misc          | Log_s      | 40     |
 | [Russian doll](Misc/Russian_doll)                                | Misc          | Enarior    | 50     |
 | [Find me](OSINT/FindMe)                                          | OSINT         | xanhacks   | 10     |
 | [Social ID #1](OSINT/Social_ID_1)                                | OSINT         | xanhacks   | 15     |
@@ -27,8 +28,8 @@ Discord : https://discord.gg/PhNkPrfeJG
 | [PwnQL #1](Web/PwnQL_1)                                          | Web           | xanhacks   | 50     |
 | [0xSSRF](Web/0xSSRF)                                             | Web           | xanhacks   | 50     |
 | [PwnQL #2](Web/PwnQL_2)                                          | Web           | xanhacks   | 75     |
-| [Black Market](Web/Black_Market)				   | Web	   | Worty      | 150    |
-| [Winventory](Web/Winventory)					   | Web	   | Worty	| 200	 |
+| [Black Market](Web/Black_Market)				                         | Web	         | Worty      | 150    |
+| [Winventory](Web/Winventory)					                           | Web	         | Worty	    | 200	   |
 | [JNI](Reverse/JNI)                                               | Reverse       | xanhacks   | 125    |
 | [ARMada](Reverse/ARMada)                                         | Reverse       | SoEasY     | 200    |
 | [RustInPeace](Reverse/RustInPeace)                               | Reverse       | SoEasY     | 200    |
