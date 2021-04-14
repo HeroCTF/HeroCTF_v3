@@ -1,0 +1,45 @@
+---
+version: '3'
+
+services:
+
+  jenkins:
+    build:
+      context: .
+      dockerfile: Dockerfile.jenkins
+    hostname: gentleman
+    container_name: jenkins
+    restart: always
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - "./jenkins_home/:/var/jenkins_home/:rw"
+
+  gitea:
+    build:
+      context: .
+      dockerfile: Dockerfile.gitea
+    restart: always
+    hostname: gitea
+    container_name: gitea
+    volumes:
+      - ./data:/data
+    ports:
+      - "3000:3000"
+      - "22:22"
+    depends_on:
+      - db
+
+  db:
+    image: mariadb:10
+    restart: always
+    hostname: mariadb
+    container_name: mariadb
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=gitea
+      - MYSQL_USER=gitea
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+    volumes:
+      - ./db/:/var/lib/mysql

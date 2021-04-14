@@ -1,0 +1,17 @@
+{
+  "name": "ssrf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xanhacks",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-errors": "^1.7.2",
+    "path": "^0.12.7",
+    "pug": "^3.0.0"
+  }
+}

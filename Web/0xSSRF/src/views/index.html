@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HeroCTF - 0xSSRF</title>
+	
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+	<nav>
+		<div class="nav-wrapper container">
+		<a href="/" class="brand-logo">SSRF</a>
+		<ul id="nav-mobile" class="right hide-on-med-and-down">
+			<li><a href="/flag">Get flag</a></li>
+		</ul>
+		</div>
+	</nav>
+
+	<main class="container center-align p6">
+
+		<h1>Online proxy service</h1>
+
+		<div class="row">
+			<div class="input-field col s3 offset-s3">
+			  <input id="hostInput" class="validate" type="text" name="host" placeholder="IP address or domain name" autofocus>
+			</div>
+			<div class="input-field col s3">
+				<a class="btn-floating btn-large waves-effect waves-light red" onclick="checkHost()"><i class="material-icons">send</i></a>
+			</div>
+		</div>
+	
+		<div id="response">
+
+		</div>
+		<div id="loading">
+			<div class="preloader-wrapper small active">
+				<div class="spinner-layer spinner-red-only">
+					<div class="circle-clipper left">
+						<div class="circle"></div>
+					</div><div class="gap-patch">
+						<div class="circle"></div>
+					</div><div class="circle-clipper right">
+						<div class="circle"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<footer class="page-footer fixed-bottom">
+		<div class="container">
+		  <div class="row">
+			<div class="col l6 s12">
+			  <h5 class="white-text">Proxy service</h5>
+			  <p class="grey-text text-lighten-4">Free proxy service to bypass website restriction.</p>
+			</div>
+			<div class="col l4 offset-l2 s12">
+			  <h5 class="white-text">Links</h5>
+			  <ul>
+				<li><a class="grey-text text-lighten-3" href="/flag">Get flag</a></li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+		<div class="footer-copyright">
+		  <div class="container">
+		  HeroCTF
+		  <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+		  </div>
+		</div>
+	  </footer>
+
+	<script src="js/main.js"></script>
+	<style>
+		body {
+			display: flex;
+			min-height: 100vh;
+			flex-direction: column;
+		}
+
+		main {
+			flex: 1 0 auto;
+		}
+	</style>
+</body>
+</html>

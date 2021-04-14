@@ -1,0 +1,9 @@
+FROM jenkins:2.60.3
+
+USER root
+
+COPY ./files/user.txt /var/jenkins_home/user.txt
+RUN chown root:root /var/jenkins_home/user.txt
+RUN chmod 400 /var/jenkins_home/user.txt
+
+USER jenkins

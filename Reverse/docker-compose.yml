@@ -1,0 +1,11 @@
+---
+version: "3.7"
+
+services:
+  armada:
+    build: ARMada/
+    restart: always
+    ports:
+      - "1500:3000"
+    environment:
+      - LISTEN_PORT=3000

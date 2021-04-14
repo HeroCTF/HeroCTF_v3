@@ -1,0 +1,12 @@
+FROM gitea/gitea:1.12.4
+
+COPY ./files/root.txt /root/root.txt
+RUN chown root:root /root/root.txt
+RUN chmod 400 /root/root.txt
+
+RUN apk add gcc git libffi-dev musl-dev openssl-dev perl py-pip python python-dev sshpass
+RUN python -m pip install git+git://github.com/ansible/ansible.git@devel
+
+RUN apk add sudo
+RUN echo "git:heroes" | chpasswd
+RUN echo "git ALL=(ALL) NOPASSWD:/usr/bin/ansible-playbook" >> /etc/sudoers
