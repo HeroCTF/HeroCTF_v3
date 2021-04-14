@@ -15,7 +15,7 @@ Author : **Thib**
 
 - k6deest.mid.pdf
 
-#### Solution
+### Write up
 
 This kind of file is quite rare and yet it allows to hide messages easily. 
 
@@ -28,6 +28,3 @@ Decode the base64 and we get : HERO{M1D1_F1L3_4R3_QU17_R4R3}
 ### Flag
 
 HERO{M1D1_F1L3_4R3_QU17_R4R3}
-
-
-

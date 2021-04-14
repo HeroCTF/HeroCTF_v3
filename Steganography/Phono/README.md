@@ -15,7 +15,7 @@ Author : **Thib**
 
 - whatTheHell.jpg
 
-#### Solution
+### Write up
 
 You can use an application available on android or iOS called "PhonoPaper". Then, scan the picture from left to right and turn the sound on !
 

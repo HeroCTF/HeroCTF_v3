@@ -23,9 +23,6 @@ The encryption algorithm is a simple Vigenere with a ROT1 cipher. The key unxore
 
 After solving the challenge in x86_64, we find the flag "Hero{IMSORRYBUTTHISISNOTTHEFLAG}" with the key "BESTRONG", and we have to reverse the ARM version to find the good flag which is "Hero{WTFISTHISFUCKINGFILEFORMAT}" with the key "FATMACHO".
 
-
-#### Solution
-
 We first need to apply a minus one on the encrypted result expected and then decode it as vinegere with the unxoreed key.
 ```python
 Python 3.9.2 (default, Mar 15 2021, 17:37:51) 

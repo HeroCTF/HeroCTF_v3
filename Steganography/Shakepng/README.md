@@ -15,7 +15,7 @@ Author : **Thib**
 
 - ShakePNG.png
 
-#### Solution
+### Write up
 
 It's a pretty basic shorthand challenge, just put the header at the top of the file and the IEND at the end. To do this you can use TweakPNG available on windows (yes) to rearrange the chunks.
 
@@ -24,5 +24,3 @@ It's a pretty basic shorthand challenge, just put the header at the top of the f
 ### Flag
 
 HERO{SH4K3_UR_PNG}
-
-

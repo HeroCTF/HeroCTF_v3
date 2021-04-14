@@ -10,8 +10,7 @@ One of our agents has turned over his coat: this puts us in a very delicate situ
 
 **Name : Adèle Morte**
 
-(No need to speak French)
-
+(You do not need to speak french to solve this challenge.)
 
 Format : **Hero{}**<br>
 Author : **Thib**
@@ -36,4 +35,4 @@ We only have to look at the list of her tweets to see that she participates in m
 
 ### Flag
 
-Hero{FR3NCH_M0R74D3LL35}<br>
+Hero{FR3NCH_M0R74D3LL35}

@@ -13,8 +13,6 @@ The flag is in in lowercase, without spaces.
 Format : **Hero{flag}**<br>
 Author : **Log_s**
 
-
-
 ### Write up
 
 The numbers are actually minecraft item ids.

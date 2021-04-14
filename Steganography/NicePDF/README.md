@@ -15,15 +15,13 @@ Author : **Thib**
 
 - NicePDF.pdf
 
-#### Write up
+### Write up
 
 Not very complicated, just make a CTRL+A and concatenate all the white charcacter to make the flag.
 
 ![image](text.png)
 
 ![image](flagtext.png)
-
-
 
 ### Flag
 

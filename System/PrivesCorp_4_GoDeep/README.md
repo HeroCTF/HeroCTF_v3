@@ -16,7 +16,7 @@ Author : **Log_s**
 
 ### Hints
 
- - You can pass arguments through SSH
+- You can pass arguments through SSH
 
 ### Write up
 

@@ -15,7 +15,7 @@ Author : **Thib**
 
 - SteganoPDF.pdf
 
-#### Solution
+### Write up
 
 This challenge is quite complicated. First of all, the document itself must be analysed. In the top right corner, written white on white, we can find two passwords: 
 
@@ -47,6 +47,3 @@ So we extract the data with stegsnow using the second password :
 ### Flag
 
 Hero{WH173_L1K3_5N0W}
-
-
-

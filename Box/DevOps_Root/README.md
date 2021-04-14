@@ -51,9 +51,9 @@ Now you can read the flag :)
 
 ```
 @gitea $ cat /tmp/root.txt
-HeroCTF{ce4e994cb477dec9b1ea876db647c562}
+Hero{ce4e994cb477dec9b1ea876db647c562}
 ```
 
 ### Flag
 
-HeroCTF{ce4e994cb477dec9b1ea876db647c562}
+Hero{ce4e994cb477dec9b1ea876db647c562}

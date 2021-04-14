@@ -21,4 +21,5 @@ The profile is https://twitter.com/elonmusk.
 
 ### Flag
 
-Hero{elonmusk} or Hero{@elonmusk}
+Hero{elonmusk}
+Hero{@elonmusk}

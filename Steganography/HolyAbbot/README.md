@@ -17,7 +17,7 @@ Author : **Thib**
 
 - HolyAbbot.txt
 
-#### Solution
+### Write up
 
 It is an encryption that is rarely used because it is quite complex: "Les Ave Maria de Trithème" 
 

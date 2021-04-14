@@ -36,11 +36,11 @@ Then, you can make a reverse shell with python for example.
 
 ```shell
 @jenkins $ cat user.txt
-HeroCTF{dc97a2f7da5304d12fe820bd2a6d343d}
+Hero{dc97a2f7da5304d12fe820bd2a6d343d}
 ```
 
 User flag gg !
 
 ### Flag
 
-HeroCTF{dc97a2f7da5304d12fe820bd2a6d343d}
+Hero{dc97a2f7da5304d12fe820bd2a6d343d}
