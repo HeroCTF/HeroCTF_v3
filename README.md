@@ -7,9 +7,11 @@ HeroCTF is an online cybersecurity competition for beginners or intermediates th
 Start : Friday 23/04 at 7pm (UTC+0) - 9pm in France<br>
 End : Sunday 25/04 at 9pm (UTC+0) - 11pm in France 
 
-Website : https://www.heroctf.fr/ <br>
-Twitter : https://twitter.com/HeroCTF <br>
-Discord : https://discord.gg/PhNkPrfeJG
+Website : https://www.heroctf.fr/<br>
+Twitter : https://twitter.com/HeroCTF<br>
+Discord : https://discord.gg/mgk9bv7<br>
+Ctftime : https://ctftime.org/event/1284<br>
+Github  : https://github.com/HeroCTF
 
 # Challenges
 
