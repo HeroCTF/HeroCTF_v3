@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rm /dev/safe
+make unload
+make clean
+make all
+make load
+mknod /dev/safe c 248 0
+sudo setfacl -m u:jeje:rw /dev/safe

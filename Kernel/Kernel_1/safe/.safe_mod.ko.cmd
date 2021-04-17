@@ -1,0 +1,1 @@
+cmd_/home/jeje/kernel_1/safe/safe_mod.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/jeje/kernel_1/safe/safe_mod.ko /home/jeje/kernel_1/safe/safe_mod.o /home/jeje/kernel_1/safe/safe_mod.mod.o;  true
