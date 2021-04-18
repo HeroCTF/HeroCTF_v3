@@ -1,0 +1,13 @@
+$ nmap -p 3000,8080,2222 box.heroctf.fr -sV
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-04-18 22:30 CEST
+Nmap scan report for box.heroctf.fr (35.246.63.133)
+Host is up (0.019s latency).
+rDNS record for 35.246.63.133: 133.63.246.35.bc.googleusercontent.com
+
+PORT     STATE SERVICE VERSION
+2222/tcp open  ssh     OpenSSH 8.1 (protocol 2.0)
+3000/tcp open  ppp?
+8080/tcp open  http    Jetty 9.2.z-SNAPSHOT
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 88.06 seconds

@@ -17,10 +17,15 @@ Author : **xanhacks**
 
 There are a some steps and a lot of information to consider before validating this machine, but the overall level remains easy.
 
+### Files
+
+- [nmap.txt](nmap.txt)
+
 ### Write up
 
 Nmap
 
+port 2222 : ssh
 port 3000 : gitea
 port 8080 : jenkins
 
