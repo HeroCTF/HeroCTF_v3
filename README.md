@@ -62,6 +62,7 @@ Github  : https://github.com/HeroCTF
 | [Faster](Prog/faster)                                            | Prog          | Log_s      | 75     |
 | [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | 100    |
 | [Puzzle Me](Prog/PuzzleMe)                                       | Prog          | Log_s      | 100    |
+| [HeroRPG](Forensics/HeroRPG)                                     | Forensics     | Log_s      | 75     |
 
 
 
