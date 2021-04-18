@@ -38,14 +38,17 @@ Github  : https://github.com/HeroCTF
 | [JNI](Reverse/JNI)                                               | Reverse       | xanhacks   | 125    |
 | [ARMada](Reverse/ARMada)                                         | Reverse       | SoEasY     | 200    |
 | [RustInPeace](Reverse/RustInPeace)                               | Reverse       | SoEasY     | 200    |
+| [Password Keeper](Reverse/Password%20Keeper)                     | Reverse       | SoEasY     | 80     |
 | [sELF control](Reverse/sELF%20control)                           | Reverse       | SoEasY     | 150    |
+| [Fat boy](Reverse/fatBoy)                                        | Reverse       | SoEasY     | 90     |
+| [WTF](Reverse/WTF)                                               | Reverse       | SoEasY     | 350    |
+| [Integer Santa](Pwn/Integer%20Santa)                             | Pwn           | SoEasY     | 75     |
 | [PrivesCorp#1 : Probation](System/PrivesCorp_1_Probation)        | System        | Log_s      | 50     |
 | [PrivesCorp#2 : Motherload](System/PrivesCorp_2_Motherload)      | System        | Log_s      | 75     |
 | [PrivesCorp#3 : HelpMe](System/PrivesCorp_3_HelpMe)              | System        | Log_s      | 100    |
 | [PrivesCorp#4 : GoDeep](System/PrivesCorp_4_GoDeep)              | System        | Log_s      | 200    |
 | [Assistant](System/Assistant)                                    | System        | Log_s      | 75     |
 | [The Dark Knight](System/TheDarkKnight)                          | System        | Log_s      | 50     |
-| [WHITE](Steganography/WHITE)                                     | Steganography | SoEasY     | 40     |
 | [Atoms](Steganography/Atoms)                                     | Steganography | xanhacks   | 50     |
 | [HolyAbbot](Steganography/HolyAbbot)                             | Steganography | Thib       | 15     |
 | [NicePDF](Steganography/NicePDF)                                 | Steganography | Thib       | 20     |
