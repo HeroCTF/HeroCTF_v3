@@ -8,6 +8,8 @@ Pwn
 
 Tell Santa what you want for chrismas ! 
 
+nc chall.heroctf.fr xxxx
+
 Format : **Hero{flag}**<br>
 Author : **SoEasY**
 
