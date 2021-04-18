@@ -26,9 +26,9 @@ for(int i=0; i < tours; i++){
 }
 ```
 
-We have to overflow the input buffer of 64 bytes, keep tthe value 0xcafebabe for the int "valueur" (cf. source code in C) and then overflow the "tours" int.
+We have to overflow the input buffer of 64 bytes, keep the value 0xcafebabe for the int "valeur" (cf. source code in C) and then overflow the "tours" int, whith  the length of the input which must be 0.
 
-Then, the condition `strlen(input) == 0 && valeur==0xcafebabe` will return TRUE, which correponds to the int 1, and so the programm will give you a letter of the flag. By overflowing the variable "tours" we can print all the flag. Btw, the length of the input must be 0...
+Then, the condition `strlen(input) == 0 && valeur==0xcafebabe` will return TRUE, which correponds to the int 1, and so the programm will give you a letter of the flag. By overflowing the variable "tours" we can print all the flag.
 
 So the payload contains : 
 - \x00 * 64 to overflow the buffer and having a input length of 0
