@@ -7,18 +7,19 @@ Reverse
 
 ### Description
 
-I found a program to read the flag but it seems to be broken... Could you help me patching patching two bytes to make it functional ? 
+You are mandated to pentest a new password manager application.
+Try to log your self to the application !
 
-nc challs.heroctf.fr 2048
-
-Format : **Hero{flag}**<br>
+Format : **Hero{user:password}**<br>
 Author : **SoEasY**
 
 ### Files
 
-- READFLAG.bin
+- hero-password-keeper.app
 
 ### Write up
+
+
 
 #### Solution
 
