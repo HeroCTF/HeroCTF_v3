@@ -36,7 +36,7 @@ RUN chown dylan:dylan /home/bob/note.txt
 COPY flag.txt /home/hr/flag.txt
 RUN chown hr:hr /home/hr/flag.txt
 COPY sudoers /etc/sudoers
-COPY README.txt /etc/motd
+COPY howto.txt /etc/motd
 COPY passManager /home/util/
 
 RUN rm -rf /bin/su
