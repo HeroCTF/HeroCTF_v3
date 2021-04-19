@@ -12,9 +12,10 @@ Joker : his password one the network. Gordon, find who he is and get the intel. 
 
 Good luck.
 
-Your credentials on the network -> gordon:password123
-
-URL : http://challs.heroctf.fr:XXXX
+```shell
+$ ssh gordon@chall0.heroctf.fr -p 5005
+password : password123
+```
 
 Format : **Hero{flag}**<br>
 Author : **Log_s**
