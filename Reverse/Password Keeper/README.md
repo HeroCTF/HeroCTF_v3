@@ -25,6 +25,8 @@ We can now open this binary file in a disassembler (IDA in my case). The interes
 
 ![image](https://user-images.githubusercontent.com/34216946/115162286-f0cc5080-a0a2-11eb-80de-517fa5b9707b.png)
 
+There we can see that a password will be constitued of "Sw4gGP4ssw0rd"
+
 
 #### Solution
 
