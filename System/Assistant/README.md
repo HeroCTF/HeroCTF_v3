@@ -8,9 +8,10 @@ System
 
 Welcome ! This machine is equiped with the next generation personnal assistant technology. Make good use of it ;)
 
-credentials -> brian:password123
-
-URL : http://challs.heroctf.fr:XXXX
+```shell
+$ ssh brian@chall0.heroctf.fr -p 5000
+password : password123
+```
 
 Format : **Hero{flag}**<br>
 Author : **Log_s**
