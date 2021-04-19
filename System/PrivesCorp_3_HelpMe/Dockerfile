@@ -2,6 +2,7 @@ FROM ubuntu:18.04
 
 RUN apt update && apt install openssh-server sudo -y
 RUN apt-get -y install openssh-client
+RUN mkdir -p /var/run/sshd
 
 RUN groupadd boss
 
