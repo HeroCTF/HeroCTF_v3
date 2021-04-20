@@ -10,7 +10,7 @@ The layoff list was leaked... The reponsible hr was let go, but before that, he 
 Your credentials on PrivesCorp's network -> bob:password123
 
 ```shell
-$ ssh bob@chall0.heroctf.fr -p 5004 <your_input>
+$ ssh bob@chall0.heroctf.fr -p 5004
 password : password123
 ```
 
