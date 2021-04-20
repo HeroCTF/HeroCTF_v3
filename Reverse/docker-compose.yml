@@ -1,11 +1,22 @@
 ---
-version: "3.7"
+version: "2.2"
 
 services:
+
   armada:
     build: ARMada/
     restart: always
+    mem_limit: 512m
     ports:
-      - "1500:3000"
+      - "3000:3000"
     environment:
       - LISTEN_PORT=3000
+
+  self_control:
+    build: sELF_control/
+    restart: always
+    mem_limit: 512m
+    ports:
+      - "2048:2048"
+    environment:
+      - LISTEN_PORT=2048
