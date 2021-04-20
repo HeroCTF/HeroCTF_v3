@@ -17,6 +17,10 @@ Author : **SoEasY**
 
 ### Write up
 
+This challenge in nothing more than a sudoku game :)
+
+
+
 ### Flag
 
 Hero{178546239429381567563927184935214678741865923682793415256478391814639752397152846}
