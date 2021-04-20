@@ -2,5 +2,5 @@
 
 while :
 do
-	exec socat TCP-LISTEN:$LISTEN_PORT,reuseaddr,fork EXEC:'/usr/src/sELF_control,stderr'
+	su -c "exec socat TCP-LISTEN:$LISTEN_PORT,reuseaddr,fork EXEC:'/usr/src/sELF_control,stderr'" - heroctf;
 done
