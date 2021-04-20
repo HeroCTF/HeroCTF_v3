@@ -8,7 +8,7 @@ Web
 
 Get the flag !
 
-URL : http://challs.heroctf.fr:3000
+URL : http://chall2.heroctf.fr:3000
 
 Format : **Hero{flag}**<br>
 Author : **xanhacks**
