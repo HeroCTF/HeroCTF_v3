@@ -39,7 +39,7 @@ Github  : https://github.com/HeroCTF
 | [ARMada](Reverse/ARMada)                                         | Reverse       | SoEasY     | 200    |
 | [RustInPeace](Reverse/RustInPeace)                               | Reverse       | SoEasY     | 200    |
 | [Password Keeper](Reverse/Password%20Keeper)                     | Reverse       | SoEasY     | 80     |
-| [sELF control](Reverse/sELF%20control)                           | Reverse       | SoEasY     | 150    |
+| [sELF control](Reverse/sELF_control)                           | Reverse       | SoEasY     | 150    |
 | [Fat boy](Reverse/fatBoy)                                        | Reverse       | SoEasY     | 90     |
 | [WTF](Reverse/WTF)                                               | Reverse       | SoEasY     | 350    |
 | [Integer Santa](Pwn/Integer%20Santa)                             | Pwn           | SoEasY     | 75     |
@@ -62,6 +62,7 @@ Github  : https://github.com/HeroCTF
 | [Faster](Prog/faster)                                            | Prog          | Log_s      | 75     |
 | [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | 100    |
 | [Puzzle Me](Prog/PuzzleMe)                                       | Prog          | Log_s      | 100    |
+| [HeroRPG](Forensics/HeroRPG)                                     | Forensics     | Log_s      | 75     |
 
 
 

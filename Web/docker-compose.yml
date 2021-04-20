@@ -1,9 +1,9 @@
 ---
-version: "3.7"
+version: "2.2"
 
 services:
   pwnql:
-    build: PwnQL/
+    build: PwnQL_1/
     restart: always
     ports:
       - "8080:80"
@@ -70,5 +70,6 @@ services:
   blackmarket:
     build: Black_Market/
     restart: always
+    mem_limit: 1512m
     ports:
       - "3050:3000"

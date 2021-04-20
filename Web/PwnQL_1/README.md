@@ -8,7 +8,7 @@ Web
 
 Login as *admin* to get the flag.
 
-URL : http://challs.heroctf.fr:XXXX
+URL : http://chall2.heroctf.fr:8080
 
 Format : **Hero{flag}**<br>
 Author : **xanhacks**

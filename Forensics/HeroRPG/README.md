@@ -12,6 +12,8 @@ To run the game, go to the `Hero/www` folder and run `sudo python3 -m http.serve
 
 You can move around with the arrow keys, interact with enter, and open your inventory with X.
 
+https://drive.google.com/file/d/1e3WhmoOV_E4b9_9lQZiaBGkI2wnd_np2/view?usp=sharing
+
 Format : **HERO{flag}**<br>
 Author : **Log_s**
 
@@ -23,9 +25,31 @@ First, let's understand what the goal is, and what the scenario allows us to do.
 
 We probably have to get passed the keeper, who is asking for a golden perl to give you access to the "sacred Flag Lands". There is a chest giving you these gold perls, but anytime you approach the keeper with it, the earth shakes, and you loose the perl. You can't carry more than one perl. There is nothing intersting in the house.
 
-// IMAGE
+![image](https://user-images.githubusercontent.com/26695558/115159368-15203100-a093-11eb-8b3e-2577c342707e.png)
+
 
 Now let's identify what we can easily mess with in the game data. There are some interesting JSON files in the data folder.
+
+```
+data/
+├── Actors.json
+├── Animations.json
+├── Armors.json
+├── Classes.json
+├── CommonEvents.json
+├── Enemies.json
+├── Items.json
+├── Map001.json
+├── Map002.json
+├── Map003.json
+├── MapInfos.json
+├── Skills.json
+├── States.json
+├── System.json
+├── Tilesets.json
+├── Troops.json
+└── Weapons.json
+```
 
 If you take a look at `MapInfos.json`, you'll see that there are three indexed maps. Among them a map called "flag_map".
 
@@ -48,13 +72,14 @@ There are basically endless possibilities, but I am going to highlight two easy 
 
 First, let's remove the earth_quake event. Juste delete the line 7 in "Map001.json", and rerun the game. You won't loose the perl, and you can get passed the keeper.
 
-Second easy way is to change the default spawn. In the "System.json" file, change look for the `startMapId` parameter (carefull, there are 4 total, with 3 of them set to 0, there unused game features). It sould look like this `"startMapId":1,"startX":6,"startY":6`. We established that the index of the map with the flag is 2, so let's change the `startMapId` to 2 : `"startMapId":2,"startX":6,"startY":6` and the game again !
+Second easy way is to change the default spawn. In the "System.json" file, look for the `startMapId` parameter (carefull, there are 4 total, with 3 of them set to 0, they are unused game features). It sould look like this `"startMapId":1,"startX":6,"startY":6`. We established that the index of the map with the flag is 2, so let's change the `startMapId` to 2 : `"startMapId":2,"startX":6,"startY":6` and run the game again !
 
 In any case, the final step is to look for flag. The "Map002.json" file teaches us that the map is sized 100x100 : `[...], "height":100, [...], "width":100, [...]`. Let's walk to the end.
 
 Congratz !
 
-// IMAGE
+![image](https://user-images.githubusercontent.com/26695558/115159654-8ca29000-a094-11eb-85e3-6c6ad0470cb4.png)
+
 
 /!\ Don't forget to empty your cache each time you modify game data, or the changes won't take effect ;)
 

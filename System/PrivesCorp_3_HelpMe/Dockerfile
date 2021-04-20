@@ -2,6 +2,7 @@ FROM ubuntu:18.04
 
 RUN apt update && apt install openssh-server sudo -y
 RUN apt-get -y install openssh-client
+RUN mkdir -p /var/run/sshd
 
 RUN groupadd boss
 
@@ -36,7 +37,7 @@ RUN chown dylan:dylan /home/bob/note.txt
 COPY flag.txt /home/hr/flag.txt
 RUN chown hr:hr /home/hr/flag.txt
 COPY sudoers /etc/sudoers
-COPY README.txt /etc/motd
+COPY howto.txt /etc/motd
 COPY passManager /home/util/
 
 RUN rm -rf /bin/su

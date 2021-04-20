@@ -7,9 +7,11 @@ System
 ### Description
 
 You were contracted (for a lot of a money) by l'Hackonfrerie to steal some financial data. Extra money is always nice.
-Your credentials on PrivesCorp's network -> bob:password123
 
-URL : http://challs.heroctf.fr:XXXX
+```shell
+$ ssh bob@chall0.heroctf.fr -p 5002
+password : password123
+```
 
 Format : **Hero{flag}**<br>
 Author : **Log_s**

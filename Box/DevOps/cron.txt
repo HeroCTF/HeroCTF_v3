@@ -1,1 +1,1 @@
-0 */4 * * * /usr/bin/cd /home/heroctf/HeroCTF_v3_INFRA/box/DevOps/ && /bin/bash restart.sh
+0 */4 * * * cd /home/heroctf/challenges/Box/DevOps/ && /bin/bash restart.sh

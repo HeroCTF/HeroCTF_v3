@@ -7,9 +7,11 @@ System
 ### Description
 
 PrivesCorp is about conduct a wave of layoffs. If only you knew if you are on the list...
-Your credentials on PrivesCorp's network -> bob:password123
 
-URL : http://challs.heroctf.fr:XXXX
+```shell
+$ ssh bob@chall0.heroctf.fr -p 5003
+password : password123
+```
 
 Format : **Hero{flag}**<br>
 Author : **Log_s**

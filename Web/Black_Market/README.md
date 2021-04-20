@@ -10,10 +10,9 @@ A group of hackers sell illegal services on the deep web. This site has already 
 
 Find a way to take control of the web server!
 
-URL : http://challs.heroctf.fr:3050
+URL : http://chall2.heroctf.fr:3050
 
-Format : **Hero{}**
-
+Format : **Hero{}**<br>
 Auteur : **Worty**
 
 ### Write up
