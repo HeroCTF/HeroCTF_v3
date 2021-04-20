@@ -7,13 +7,14 @@
 
 int main(){
 
-	printf("██╗  ██╗███████╗██████╗  ██████╗  ██████╗████████╗███████╗\n");
-	printf("██║  ██║██╔════╝██╔══██╗██╔═══██╗██╔════╝╚══██╔══╝██╔════╝\n");
-	printf("███████║█████╗  ██████╔╝██║   ██║██║        ██║   █████╗  \n");
-	printf("██╔══██║██╔══╝  ██╔══██╗██║   ██║██║        ██║   ██╔══╝  \n");
-	printf("██║  ██║███████╗██║  ██║╚██████╔╝╚██████╗   ██║   ██║     \n");
-	printf("╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝   ╚═╝   ╚═╝     \n");
-	printf("================ sELF control (by SoEasY) ================\n\n"); 
+	printf( "██╗  ██╗███████╗██████╗  ██████╗  ██████╗████████╗███████╗\n"
+		"██║  ██║██╔════╝██╔══██╗██╔═══██╗██╔════╝╚══██╔══╝██╔════╝\n"
+		"███████║█████╗  ██████╔╝██║   ██║██║        ██║   █████╗  \n"
+		"██╔══██║██╔══╝  ██╔══██╗██║   ██║██║        ██║   ██╔══╝  \n"
+		"██║  ██║███████╗██║  ██║╚██████╔╝╚██████╗   ██║   ██║     \n"
+		"╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝   ╚═╝   ╚═╝     \n");
+	printf("================ sELF control (by SoEasY) ================\n\n");
+	fflush(stdout);
 
 	uuid_t binuuid;
 	int ch;
@@ -51,8 +52,10 @@ int main(){
 		}
 	
 		printf("\nPosition of the byte to patch in hex (example: %02X) : ", rand()%32);
+		fflush(stdout);
 		scanf("%x", &offset1);
 		printf("Value to put at this offset in hex (example: %02X) : ", rand()%32);
+		fflush(stdout);
 		scanf("%x", &val1);
 
 		fseek(file, offset1, SEEK_SET);
@@ -66,6 +69,7 @@ int main(){
 	// system(xxd);
 
 	printf("\n[+] Execution : \n");
+	fflush(stdout);
 	sprintf(execute, "chmod +x %s && ./%s\0", uuid, uuid);
 	system(execute);
 	
