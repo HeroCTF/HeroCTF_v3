@@ -68,7 +68,7 @@ The obvious payload is the following :
 ```python
 _8692_869244("secret/879.txsecret/879.txtt").read()
 ```
-But since we can't use more then 39 characters, we'll have to find a way to bypass it. The `flag` variable that seemed to be nothing more than a troll from that mean challenge creater, is actually writtable (and won't be deleted since it's inside the TO_KEEP variable).
+But since we can't use more then 39 characters, we'll have to find a way to bypass it. The `flag` variable that seemed to be nothing more than a troll from that mean challenge creator, is actually writtable (and won't be deleted since it's inside the TO_KEEP variable).
 ```
 bob@godeep > flflagag="secret/879.txsecret/879.txtt"
 --->  flag="secret/879.txt"
