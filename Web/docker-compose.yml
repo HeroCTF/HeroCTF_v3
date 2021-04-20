@@ -3,7 +3,7 @@ version: "2.2"
 
 services:
   pwnql:
-    build: PwnQL/
+    build: PwnQL_1/
     restart: always
     ports:
       - "8080:80"
