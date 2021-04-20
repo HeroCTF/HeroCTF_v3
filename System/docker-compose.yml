@@ -5,6 +5,7 @@ services:
   assistant:
     build: Assistant/
     restart: always
+    mem_limit: 512m
     ports:
       - "5000:22"
 
