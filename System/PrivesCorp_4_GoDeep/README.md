@@ -17,10 +17,6 @@ password : password123
 Format : **Hero{flag}**<br>
 Author : **Log_s**
 
-### Hints
-
-- You can pass arguments through SSH
-
 ### Write up
 
 First thing we can establish, is that there is a 39 character limit, that import and builtins are not usable, and that variables are not kept from one line to another.
