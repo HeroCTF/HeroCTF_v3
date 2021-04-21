@@ -14,7 +14,10 @@ to find the hidden meaning of this communication. Good luck.
 /!\ If you are using a script, you have to append '\n' to any data you wish to send back.<br>
 /!\ I bended the official rules : I went from 3 to 4 (you'll get it when you will get there)
 
-URL : http://challs.heroctf.fr:XXXX
+```
+Host : chall0.heroctf.fr
+Port : 7004
+```
 
 Format : **HERO(FLAG)**<br>
 Author : **Log_s**
