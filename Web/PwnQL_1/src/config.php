@@ -9,7 +9,7 @@ $mysql_database = getenv("MYSQL_DATABASE");
 
 try {
     $db = new PDO(
-        "mysql:host=" . $mysq_host . ";dbname=$mysql_database;charset=utf8",
+        "mysql:host=${mysq_host};dbname=${mysql_database};charset=utf8",
         $mysql_user,
         $mysql_password
     );
