@@ -1,0 +1,4 @@
+gcc -o wrapper -m32 Forbidden_bro.c 
+#chown root y
+#chmod 4777 y
+gcc -o ROPME ROPME.c  -Wl,-z,relro,-z,now,-z,noexecstack -static -fno-stack-protector 
