@@ -1,0 +1,19 @@
+from flask import Flask, render_template, request
+from flask_socketio import SocketIO, emit
+
+app = Flask(__name__)
+app.config['SECRET_KEY'] = 'secret!'
+socketio = SocketIO(app, cors_allowed_origins="*")
+
+@app.route('/')
+def index():
+	"""Home page."""
+	return render_template('index.html')
+
+@socketio.on('message')
+def handle_message(data):
+	print('received {}'.format(data))
+
+if __name__ == "__main__":
+	print('[INFO] Starting server on 0.0.0.0:5000')
+	socketio.run(app=app, host='0.0.0.0', port=5000, keyfile='key.pem', certfile='cert.pem')

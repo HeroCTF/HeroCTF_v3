@@ -1,0 +1,3 @@
+gcc WinButTwisted.c -o x -m32 -no-pie -fno-stack-protector -z -noexecstack
+chown root x
+chmod 4777 x
