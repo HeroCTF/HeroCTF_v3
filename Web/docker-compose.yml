@@ -1,5 +1,5 @@
 ---
-version: "3.7"
+version: "3.3"
 
 services:
   pwnql:
@@ -79,6 +79,5 @@ services:
   blackmarket:
     build: Black_Market/
     restart: always
-    mem_limit: 1512m
     ports:
       - "3050:3000"
