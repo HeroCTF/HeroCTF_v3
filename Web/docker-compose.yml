@@ -1,5 +1,5 @@
 ---
-version: "2.2"
+version: "3.7"
 
 services:
   pwnql:
@@ -7,6 +7,11 @@ services:
     restart: always
     ports:
       - "8080:80"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.4'
+          memory: 1024M
     environment:
       - PWNQL_1_FLAG=${PWNQL_1_FLAG}
       - MYSQL_USER=${MYSQLI_USER}
