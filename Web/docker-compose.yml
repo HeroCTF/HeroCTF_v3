@@ -8,7 +8,7 @@ services:
     ports:
       - "8080:80"
     cpus: 0.4
-    mem_limit: 1024m
+    mem_limit: 640m
     environment:
       - PWNQL_1_FLAG=${PWNQL_1_FLAG}
       - MYSQL_USER=${MYSQLI_USER}
@@ -24,7 +24,7 @@ services:
     expose:
       - 3306
     cpus: 0.6
-    mem_limit: 1512m
+    mem_limit: 2048m
     environment:
       - MYSQL_RANDOM_ROOT_PASSWORD=yes
       - MYSQL_USER=${MYSQLI_USER}
@@ -37,7 +37,7 @@ services:
     build: 0xSSRF/
     restart: always
     cpus: 0.4
-    mem_limit: 1024m
+    mem_limit: 640m
     ports:
       - "3000:3000"
     environment:
@@ -47,7 +47,7 @@ services:
     build: YouShouldDie/
     restart: always
     cpus: 0.4
-    mem_limit: 1024m
+    mem_limit: 640m
     ports:
       - "9000:80"
     environment:
@@ -60,7 +60,7 @@ services:
     expose:
       - 3306
     cpus: 0.6
-    mem_limit: 1512m
+    mem_limit: 2048m
     environment:
       - MYSQL_RANDOM_ROOT_PASSWORD=yes
       - MYSQL_USER=${SQL_USER}
@@ -75,7 +75,7 @@ services:
     ports:
       - "8050:80"
     cpus: 0.4
-    mem_limit: 1024m
+    mem_limit: 640m
     environment:
       - MYSQL_USER=${SQL_USER}
       - MYSQL_PASSWORD=${SQL_PASSWORD}
@@ -89,4 +89,4 @@ services:
     ports:
       - "3050:3000"
     cpus: 0.4
-    mem_limit: 1024m
+    mem_limit: 640m
