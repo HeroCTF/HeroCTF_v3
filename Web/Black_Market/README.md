@@ -12,7 +12,7 @@ Find a way to take control of the web server!
 
 URL : http://chall2.heroctf.fr:3050
 
-Format : **Hero{}**<br>
+Format : **Hero{flag}**<br>
 Auteur : **Worty**
 
 ### Write up

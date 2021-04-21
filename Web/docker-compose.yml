@@ -11,6 +11,7 @@ services:
     mem_limit: 640m
     environment:
       - PWNQL_1_FLAG=${PWNQL_1_FLAG}
+      - MYSQL_HOST=mysqli
       - MYSQL_USER=${MYSQLI_USER}
       - MYSQL_PASSWORD=${MYSQLI_PASSWORD}
       - MYSQL_DATABASE=${MYSQLI_DATABASE}
@@ -77,6 +78,7 @@ services:
     cpus: 0.4
     mem_limit: 640m
     environment:
+      - MYSQL_HOST=winventorybdd
       - MYSQL_USER=${SQL_USER}
       - MYSQL_PASSWORD=${SQL_PASSWORD}
       - MYSQL_DATABASE=${SQL_DATABASE}
@@ -88,5 +90,13 @@ services:
     restart: always
     ports:
       - "3050:3000"
+    cpus: 0.4
+    mem_limit: 640m
+
+  magic_render:
+    build: Magic_Render/
+    restart: always
+    ports:
+      - "7000:8050"
     cpus: 0.4
     mem_limit: 640m

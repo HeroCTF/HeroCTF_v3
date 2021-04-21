@@ -2,7 +2,7 @@
 from string import printable
 from requests import post
 
-URL = "http://localhost:8080/index.php"
+URL = "http://chall2.heroctf.fr:8080/index.php"
 
 charset = printable.replace("_", "").replace("%", "")
 

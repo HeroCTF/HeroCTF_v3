@@ -12,6 +12,11 @@ Nevertheless, this one is quite permissive, you can even execute javascript with
 
 The alpha version of this project deserves to be tested before being released in production.
 
+URL : http://chall2.heroctf.fr:7000
+
+Format : **Hero{flag}**<br>
+Auteur : **Worty**
+
 ### Write Up
 
 ```py
