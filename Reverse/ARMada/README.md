@@ -8,7 +8,10 @@ Reverse
 
 You are commissioned to test a new military-grade encryption, but apparently the developers haven't invented much...
 
-nc chall0.heroctf.fr 3000
+```
+Host : chall0.heroctf.fr
+Port : 3000
+```
 
 Format : **Hero{flag}**<br>
 Author : **SoEasY**
