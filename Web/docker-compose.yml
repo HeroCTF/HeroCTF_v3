@@ -10,6 +10,7 @@ services:
     cpus: 0.4
     mem_limit: 640m
     environment:
+      - MYSQL_HOST='mysqli'
       - PWNQL_1_FLAG=${PWNQL_1_FLAG}
       - MYSQL_USER=${MYSQLI_USER}
       - MYSQL_PASSWORD=${MYSQLI_PASSWORD}
@@ -77,6 +78,7 @@ services:
     cpus: 0.4
     mem_limit: 640m
     environment:
+      - MYSQL_HOST='winventorybdd'
       - MYSQL_USER=${SQL_USER}
       - MYSQL_PASSWORD=${SQL_PASSWORD}
       - MYSQL_DATABASE=${SQL_DATABASE}
