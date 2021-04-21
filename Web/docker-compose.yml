@@ -92,3 +92,11 @@ services:
       - "3050:3000"
     cpus: 0.4
     mem_limit: 640m
+
+  magic_render:
+    build: Magic_Render/
+    restart: always
+    ports:
+      - "7000:8050"
+    cpus: 0.4
+    mem_limit: 640m
