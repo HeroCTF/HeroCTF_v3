@@ -7,9 +7,9 @@ class SqlConnection {
      * SqliteConnection constructor.
      */
     public function __construct() {
-        $dsn = 'mysql:host=winventorybdd; dbname=winventory;';
-        $user = 'worty';
-        $password = '5brx8UqqGWg9WtUakjEt';
+        $dsn = 'mysql:host=' . getenv('MYSQL_HOST') . '; dbname=' . getenv('MYSQL_DATABASE') . ';';
+        $user = getenv('MYSQL_USER');
+        $password = getenv('MYSQL_PASSWORD');
         try
         {
             self::$connection = new PDO($dsn, $user, $password);

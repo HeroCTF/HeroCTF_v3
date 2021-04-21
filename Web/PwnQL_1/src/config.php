@@ -2,13 +2,14 @@
 
 define("FLAG", getenv("PWNQL_1_FLAG"));
 
+$mysq_host = getenv('MYSQL_HOST');
 $mysql_user = getenv("MYSQL_USER");
 $mysql_password = getenv("MYSQL_PASSWORD");
 $mysql_database = getenv("MYSQL_DATABASE");
 
 try {
     $db = new PDO(
-        "mysql:host=mysqli;dbname=$mysql_database;charset=utf8",
+        "mysql:host=" . $mysq_host . ";dbname=$mysql_database;charset=utf8",
         $mysql_user,
         $mysql_password
     );
