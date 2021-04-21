@@ -12,7 +12,7 @@ To run the game, go to the `Hero/www` folder and run `sudo python3 -m http.serve
 
 You can move around with the arrow keys, interact with enter, and open your inventory with X.
 
-https://drive.google.com/file/d/1e3WhmoOV_E4b9_9lQZiaBGkI2wnd_np2/view?usp=sharing
+https://drive.google.com/file/d/1VXezRNMVesUn4xNrWyi7sMNwXnL7cySR/view?usp=sharing
 
 Format : **HERO{flag}**<br>
 Author : **Log_s**
