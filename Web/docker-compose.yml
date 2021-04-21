@@ -15,6 +15,7 @@ services:
       - MYSQL_USER=${MYSQLI_USER}
       - MYSQL_PASSWORD=${MYSQLI_PASSWORD}
       - MYSQL_DATABASE=${MYSQLI_DATABASE}
+      - DEBUG='true'
     depends_on:
       - mysqli
 
