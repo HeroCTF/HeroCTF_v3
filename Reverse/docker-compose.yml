@@ -6,6 +6,7 @@ services:
   armada:
     build: ARMada/
     restart: always
+    cpus: 0.4
     mem_limit: 512m
     ports:
       - "3000:3000"
@@ -15,6 +16,7 @@ services:
   self_control:
     build: sELF_control/
     restart: always
+    cpus: 0.4
     mem_limit: 512m
     ports:
       - "2048:2048"
