@@ -1,0 +1,36 @@
+---
+version: "2.2"
+
+services:
+
+  wrapper:
+    build: wrapper/
+    restart: always
+    ports:
+      - "7001:7002"
+    cpus: 0.4
+    mem_limit: 512m
+
+  faster:
+    build: faster/
+    restart: always
+    ports:
+      - "7002:7002"
+    cpus: 0.4
+    mem_limit: 512m
+
+  number_guesser:
+    build: PRoNumberGuesser/
+    restart: always
+    ports:
+      - "7003:7003"
+    cpus: 0.4
+    mem_limit: 512m
+
+  polysemy:
+    build: polysemy/
+    restart: always
+    ports:
+      - "7004:7004"
+    cpus: 0.4
+    mem_limit: 512m
