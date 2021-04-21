@@ -2,6 +2,7 @@
 
 from os import system, chmod
 from time import sleep
+import string, random
 
 print("Welcome I am Snake, your personnal assistant")
 print("Please select a command you want to run, and me free you of the burden of doing it yourself")
@@ -36,8 +37,10 @@ chmod("/home/brian/order.cmd", 0o777) #Make sure the runner can read it
 
 try:
     open("/root/run.py", "r")
-    system("/usr/bin/python3 /root/run.py")
-    print("[+] The output will be saved to /home/brian/output.txt")
+    filename = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(10))+".txt"
+    print(filename)
+    system("/usr/bin/python3 /root/run.py {}".format(filename))
+    print("[+] The output will be saved to /tmp/"+filename)
     print("See you around !")
 except:
     print("Run me as root !")

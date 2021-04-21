@@ -15,16 +15,19 @@ COPY assistant.py /bin/
 COPY sudoers /etc/sudoers
 COPY flag.txt /lib/udev/rules.d/02-uaccesss.rules
 COPY start.sh /root/start.sh
+COPY warning.sh /bin/warning.sh
 RUN echo '/lib/udev/rules/d/02-uaccesss.rules' > /root/path.txt
 
+RUN chmod 755 /bin/warning.sh
 RUN chmod 750 /root/run.py
 RUN chmod 755 /bin/assistant.py
 RUN chmod 600 /lib/udev/rules.d/02-uaccesss.rules
 RUN chmod 600 /root/path.txt
 RUN chmod 755 /home/brian
 RUN chmod 733 /tmp
-RUN echo 'alias ls="echo This is a shared instance, work in /tmp to avoid having other teams steal your work"' > /etc/profile.d/alias.sh
 RUN (crontab -l 2>/dev/null; echo "* * * * * /bin/rm -rf /home/brian/*\n# new line") | crontab -
+RUN rm /bin/ls
+RUN ln -s /bin/warning.sh /bin/ls
 
 COPY howto.txt /etc/motd
 EXPOSE 22
