@@ -23,6 +23,8 @@ services:
     restart: always
     expose:
       - 3306
+    cpus: 0.6
+    mem_limit: 1512m
     environment:
       - MYSQL_RANDOM_ROOT_PASSWORD=yes
       - MYSQL_USER=${MYSQLI_USER}
@@ -34,6 +36,8 @@ services:
   ssrf:
     build: 0xSSRF/
     restart: always
+    cpus: 0.4
+    mem_limit: 1024m
     ports:
       - "3000:3000"
     environment:
@@ -42,6 +46,8 @@ services:
   youshoulddie:
     build: YouShouldDie/
     restart: always
+    cpus: 0.4
+    mem_limit: 1024m
     ports:
       - "9000:80"
     environment:
@@ -53,6 +59,8 @@ services:
     restart: always
     expose:
       - 3306
+    cpus: 0.6
+    mem_limit: 1512m
     environment:
       - MYSQL_RANDOM_ROOT_PASSWORD=yes
       - MYSQL_USER=${SQL_USER}
@@ -66,6 +74,8 @@ services:
     restart: always
     ports:
       - "8050:80"
+    cpus: 0.4
+    mem_limit: 1024m
     environment:
       - MYSQL_USER=${SQL_USER}
       - MYSQL_PASSWORD=${SQL_PASSWORD}
@@ -78,3 +88,5 @@ services:
     restart: always
     ports:
       - "3050:3000"
+    cpus: 0.4
+    mem_limit: 1024m
