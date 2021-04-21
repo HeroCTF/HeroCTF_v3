@@ -10,7 +10,7 @@ We've been tracking drug dealers for a few years. The only thing we got from the
 
 Can you tell us where the money is gone?
 
-Format : **Hero{HASH}**
+Format : **Hero{HASH}**  
 Author : **iHuggsy**
 
 ### Write up
