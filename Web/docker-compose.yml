@@ -10,12 +10,11 @@ services:
     cpus: 0.4
     mem_limit: 640m
     environment:
-      - MYSQL_HOST=mysqli
       - PWNQL_1_FLAG=${PWNQL_1_FLAG}
+      - MYSQL_HOST=mysqli
       - MYSQL_USER=${MYSQLI_USER}
       - MYSQL_PASSWORD=${MYSQLI_PASSWORD}
       - MYSQL_DATABASE=${MYSQLI_DATABASE}
-      - DEBUG=true
     depends_on:
       - mysqli
 
