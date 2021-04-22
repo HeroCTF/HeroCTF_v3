@@ -1,5 +1,3 @@
-from pyzbar.pyzbar import decode
-from PIL import Image
 from random import randint
 import time
 import base64
