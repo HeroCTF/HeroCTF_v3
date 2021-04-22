@@ -8,7 +8,7 @@ Box
 
 Can you find the **root.txt flag** on the box ?
 
-IP : **XXX.XX.XX.XX** (same as before)
+URL : **http://box.heroctf.fr** (same as before)
 
 Format : **Hero{flag}**<br>
 Author : **xanhacks**
