@@ -8,7 +8,7 @@ Box
 
 Can you find the **user.txt flag** on the box ?
 
-IP : **XXX.XX.XX.XX** (only dockers are on the scope, not the real machine behind)
+URL : **http://box.heroctf.fr ** (only dockers are on the scope, not the real machine behind)
 
 Format : **Hero{flag}**<br>
 Author : **xanhacks**
