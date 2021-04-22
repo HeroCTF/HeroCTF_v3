@@ -6,7 +6,7 @@ System
 
 ### Description
 
-PrivesCorp is about conduct a wave of layoffs. If only you knew if you are on the list...
+PrivesCorp is about to conduct a wave of layoffs. If only you knew if you are on the list...
 
 ```shell
 $ ssh bob@chall0.heroctf.fr -p 5003
