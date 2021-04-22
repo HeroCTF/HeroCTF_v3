@@ -11,8 +11,8 @@ def parseFile():
     return food
 
 def connect():
-    ip = "192.168.120.5"
-    port = 3000
+    ip = "chall0.heroctf.fr"
+    port = 7005
     io = remote(ip,port)
     io.recvuntil("(y/n)")
     io.sendline("y")
