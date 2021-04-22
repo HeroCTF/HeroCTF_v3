@@ -7,7 +7,7 @@ Pwn
 ### Description
 
 You think you know how to ROP ?
-The flag is in the hello/ folder.
+The flag is in the flag/ folder.
 Oh and uuuh, I think I might have forbidden execve and execveat..
 Note : Use the SUID wrapper to flag 
 
