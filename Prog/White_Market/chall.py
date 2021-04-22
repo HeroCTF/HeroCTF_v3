@@ -30,7 +30,7 @@ def challenge(chall,total):
         toSend = open("barcodes/"+img,"rb").read()
         toSend = base64.b64encode(toSend)
         start_time = time.time()
-        priceByUser = input("What's the price for this article: "+toSend.decode()+"\n")
+        priceByUser = input("Here is the barcode of the current article: "+toSend.decode()+"\n")
         if(time.time() - start_time > 0.2):
             print(f"Beeeeeeeeeeep too late! Your total is {total}$ !")
             sys.exit(-1)
