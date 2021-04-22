@@ -11,8 +11,8 @@ def parseFile():
     return food
 
 def connect():
-    ip = "192.168.120.5"
-    port = 3000
+    ip = "chall0.heroctf.fr"
+    port = 7005
     io = remote(ip,port)
     io.recvuntil("(y/n)")
     io.sendline("y")
@@ -21,13 +21,13 @@ def connect():
 def flag(io,food):
     try:
         while True:
-            content = io.recvuntil("?").decode().split(": ")[1].split("\n")[0]
+            content = io.recvline().decode().split(": ")[1]
             f = open("current.png","wb")
             f.write(b64decode(content))
             f.close()
             barcode = decode(Image.open("current.png"))[0][0].decode()
-            print(barcode)
             price = [s for s in food if barcode in s][0].split(":")[2]
+            print(price)
             io.sendline(price)
             print(io.recvline().decode())
     except:
