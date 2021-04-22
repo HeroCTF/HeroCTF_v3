@@ -15,7 +15,7 @@ class Unbuffered(object):
        return getattr(self.stream, attr)
 
 
-UNIT = 0.1
+UNIT = 0.2
 HIDDEN = "HERO(H1DD3N-M0RS3-C0D3)"
 DISPLAYED = "I love chocolate. This morning there was no more chocolate. But you probably don't care...."
 MORSE_CODE_DICT = {'A': '.-', 'B': '-...',
