@@ -15,7 +15,7 @@ class Unbuffered(object):
        return getattr(self.stream, attr)
 
 
-UNIT = 0.2
+UNIT = 0.05
 HIDDEN = "HERO(H1DD3N-M0RS3-C0D3)"
 DISPLAYED = "I love chocolate. This morning there was no more chocolate. But you probably don't care...."
 MORSE_CODE_DICT = {'A': '.-', 'B': '-...',
@@ -42,7 +42,7 @@ def pause(multiplier):
 displayed_pointer = 0
 for letter in HIDDEN:
     if letter == " ":
-        pause(7)
+        print(7)#pause(7)
     else:
         morse = MORSE_CODE_DICT[letter.upper()]
         for i, m in enumerate(morse):
