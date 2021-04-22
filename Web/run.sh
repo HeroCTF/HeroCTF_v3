@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker-compose up -d --build
+docker-compose -f "docker-compose.$(hostname).yml" up -d --build
