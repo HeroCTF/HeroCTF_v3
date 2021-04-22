@@ -1,6 +1,7 @@
-#!/usr/bin/env ash
+#!/bin/bash
 
+/self/clean.sh&
 while :
 do
-	exec socat TCP-LISTEN:$LISTEN_PORT,reuseaddr,fork EXEC:'/usr/src/sELF_control,stderr'
+	su -c "exec socat TCP-LISTEN:8000,reuseaddr,fork EXEC:'/self/sELF_control,stderr'" - player;
 done

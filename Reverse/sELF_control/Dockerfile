@@ -1,17 +1,30 @@
-FROM alpine:3.13.1 
+FROM ubuntu:18.04
 
-WORKDIR /usr/src
-RUN apk add --no-cache python3 socat
+RUN apt-get update 
+RUN apt-get install -y socat cron
+RUN groupadd ctf
 
-COPY ./sELF_control /usr/src/sELF_control
-COPY ./entry.sh /usr/src/entry.sh
+RUN mkdir /self
+COPY ./sELF_control /self/
+COPY ./entry.sh /self/
+COPY ./READFLAG /self/
+COPY ./flag.txt /self/
+COPY ./clean.sh /self/
 
-RUN adduser --disabled-password --no-create-home heroctf
-RUN chown heroctf:heroctf /usr/src/sELF_control
-RUN chown heroctf:heroctf /usr/src/entry.sh
-RUN chmod 4755 /usr/src/sELF_control
-RUN chmod 4755 /usr/src/entry.sh
+RUN useradd -G ctf --home=/self player
 
-USER heroctf
+RUN chown player:player /self/sELF_control
+RUN chown player:player /self/READFLAG
+RUN chown player:player /self/flag.txt
+RUN chown player:player /self/clean.sh
 
-ENTRYPOINT ["/usr/src/entry.sh"]
+RUN chmod +x /self/clean.sh
+RUN chmod 777 /self/
+RUN chmod 4777 /self/sELF_control
+RUN chmod 4777 /self/READFLAG
+RUN chmod 4777 /self/entry.sh
+
+RUN (crontab -l 2>/dev/null; echo "*/10 * * * * /self/clean.sh") | crontab -
+
+EXPOSE 8000
+ENTRYPOINT ["/self/entry.sh"]
