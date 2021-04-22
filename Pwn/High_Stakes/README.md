@@ -12,7 +12,7 @@ This does not seem possible.
 I really wanted to buy the flag from the shop, but right now I'm so broke I'm not even allowed to think about it.
 Lucky as you are, you'll manage to win enough money to buy it for me, right bro ?
 
-Format : **Hero{flag}**
+Format : **Hero{flag}**  
 Author : **iHuggsy**
 
 ### Write up
@@ -61,6 +61,10 @@ microsleep()
 p.sendline('3')
 print(p.clean())
 ```
+
+Surely enough, we receive 
+>>> b"\n Welcome to the shop ! What do you want to buy ?\n1 : Lucky charm (100$)\n >>> Could it unrig the game ? I doubt it.\n2 : Alcohol (3$)\n >>> Will it do something ? (spoiler : nope)\n3 : The FLAG ! (3600$)\n >>> That's what you want, right ? ;)\n>>> "
+b'There is your flag king ! Hero{g4MBl1nG_f0R_dA_fL4G}\n\n1 : Place a bet\n2 : See your current balance\n3 : See your current bets\n4 : Run the roulette BOOSTED x72 ! (totally not rigged btw)\n5 : Shop\n6 : Top-up your account\n7 : Exit\n>>> '
 
 ### Flag
 

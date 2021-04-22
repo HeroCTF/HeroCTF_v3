@@ -11,7 +11,7 @@ And I also like doing it 50x times because I forgot an option.
 
 Can you get the flag ?
 
-Format : **Hero{flag}**
+Format : **Hero{flag}**  
 Author : **SoEasy & iHuggsy**
 
 ### Write up

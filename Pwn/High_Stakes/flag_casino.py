@@ -4,7 +4,7 @@ import time
 def microsleep():
     pass
 
-p = process(['nc', '161.97.134.238', '7000'])
+p = process(['nc', '127.0.0.1', '9001'])
 time.sleep(5)
 print(p.clean())
 

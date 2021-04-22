@@ -22,7 +22,7 @@ Otherwise, you must have jupyter-notebook with the following :
 - Matplotlib
 
 
-Format : **Hero{FLAGYOUFOUND}**
+Format : **Hero{FLAGYOUFOUND}**  
 Author : **iHuggsy**
 
 ### Write up
