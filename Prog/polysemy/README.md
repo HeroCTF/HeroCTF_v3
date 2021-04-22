@@ -11,13 +11,9 @@ morning at 6am, and it's endlessly playing since then. We can't make any sense o
 can't believe it's about chocolate. Your mission, should you choose to accept it is
 to find the hidden meaning of this communication. Good luck.
 
-/!\ If you are using a script, you have to append '\n' to any data you wish to send back.<br>
+/!\ There is no need to reverse the binary (really, otherwise it would be in the reverse category ;) )<br>
 /!\ I bended the official rules : I went from 3 to 4 (you'll get it when you will get there)
 
-```
-Host : chall0.heroctf.fr
-Port : 7004
-```
 
 Format : **HERO(FLAG)**<br>
 Author : **Log_s**
@@ -25,6 +21,9 @@ Author : **Log_s**
 ### Hints
  - The flag format is slightly different from the usual one
  - Tic Tac, Tic Tac
+
+### Files
+ - [polysemy](polysemy)
 
 ### Write up
 
@@ -68,9 +67,6 @@ Let's some up :
 from pwn import *
 import time
 
-HOST = "127.0.0.1"
-PORT = 7004
-
 MORSE_CODE_DICT = {'.-': 'A', '-...': 'B',
                    '-.-.': 'C', '-..': 'D', '.': 'E',
                    '..-.': 'F', '--.': 'G', '....': 'H',
@@ -99,20 +95,21 @@ def decode_morse(morse):
             return ""
     return flag
 
-s = remote(HOST, PORT)
+s = process("./polysemy")
 
 flag1 = ""
 flag2 = ""
 
 print("[+] Reading timings")
-while True:
+timings = []
+for i in range(91):
     start = time.time()
     try:
         s.recv(1).decode()
-    except EOFError:
+    except:
         break
     d = round(time.time()-start, 2)
-    if (d > 0.05):
+    if (d > 0.05):  
         flag1 += FLAG_CASE1[d]
         flag2 += FLAG_CASE2[d]
 
@@ -123,9 +120,9 @@ print("[+] Flag is : ", flag1, flag2)
 ```
 It creates the following output.
 ```
-[+] Opening connection to 127.0.0.1 on port 7004: Done
+[+] Starting local process './polysemy': pid 64331
 [+] Reading timings
-[+] Flag is :  HERO(H1DD3N-M0RS3-C0D3( 
+[+] Flag is :  HERO(H1DD3N-M0RS3-C0D3(
 ```
 The last character is not right, for a simple reason : 
  - -.--. is the morse for '('
@@ -134,6 +131,12 @@ The last character is not right, for a simple reason :
 Since the challenge is based on the timings of characters relatively to the next, the last one can not be compared.
 The final dash in lost, which inverts the parenthesis. But it's easy enough to fix it by hand when
 you know the flag format ;)
+
+
+PS : this challenge was originally suppose to run over socat
+but the network made the timings to unpredictable. The solving
+script would have been the same, except for the `process("./polysemy")` instruction that would have been replaced by
+`remote(HOST, PORT)`. That's the power of pwntool ;)
 
 ### Flag
 

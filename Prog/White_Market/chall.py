@@ -30,14 +30,14 @@ def challenge(chall,total):
         toSend = open("barcodes/"+img,"rb").read()
         toSend = base64.b64encode(toSend)
         start_time = time.time()
-        priceByUser = input("Here is the barcode of the current article: "+toSend.decode()+"\nWhat's the price?")
+        priceByUser = input("Here is the barcode of the current article: "+toSend.decode()+"\n")
         if(time.time() - start_time > 0.2):
             print(f"Beeeeeeeeeeep too late! Your total is {total}$ !")
             sys.exit(-1)
         else:
             if(priceByUser == price):
                 totalPriceComputeByUser += int(priceByUser)
-                print(f"Beeeep beeeep Correct ! The price for {food} is {priceByUser}$ !")
+                print(f"Correct ! The price for {food} is {priceByUser}$ !")
             else:
                 print(f"Beeeeeeeeeeep this price is incorrect! The price was {price}$")
                 print(f"I will do it for you...\nYour total is {total}$ !")

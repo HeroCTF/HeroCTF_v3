@@ -1,9 +1,6 @@
 from pwn import *
 import time
 
-HOST = "chall0.heroctf.fr"
-PORT = 7004
-
 MORSE_CODE_DICT = {'.-': 'A', '-...': 'B',
                    '-.-.': 'C', '-..': 'D', '.': 'E',
                    '..-.': 'F', '--.': 'G', '....': 'H',
@@ -32,27 +29,23 @@ def decode_morse(morse):
             return ""
     return flag
 
-s = remote(HOST, PORT)
+s = process("./polysemy")
 
 flag1 = ""
 flag2 = ""
 
 print("[+] Reading timings")
 timings = []
-while True:
+for i in range(91):
     start = time.time()
     try:
         s.recv(1).decode()
-    except EOFError:
+    except:
         break
     d = round(time.time()-start, 2)
-    print(d)
-    timings.append(d)
-    #if (d > 0.05):
-        
-print(timings)    
-        #flag1 += FLAG_CASE1[d]
-        #flag2 += FLAG_CASE2[d]
+    if (d > 0.05):  
+        flag1 += FLAG_CASE1[d]
+        flag2 += FLAG_CASE2[d]
 
 flag1 = decode_morse(flag1)
 flag2 = decode_morse(flag2)

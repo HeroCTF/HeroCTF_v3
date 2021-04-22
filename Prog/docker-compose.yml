@@ -34,3 +34,11 @@ services:
       - "7004:7004"
     cpus: 0.4
     mem_limit: 512m
+
+  white_market:
+    build: White_Market/
+    restart: always
+    ports:
+      - "7005:7005"
+    cpus: 0.4
+    mem_limit: 512m
