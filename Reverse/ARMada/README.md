@@ -59,7 +59,7 @@ def main():
         custom_alphabet += chr(val ^ 0x42)
     
     # Connect to the service
-    r = remote("127.0.0.1", 3000)
+    r = remote("chall0.heroctf.fr", 3000)
 
     while True:
         # If EOFError raised, print last line which is the flag and stop
