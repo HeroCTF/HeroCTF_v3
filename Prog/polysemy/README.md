@@ -134,7 +134,7 @@ you know the flag format ;)
 
 
 PS : this challenge was originally suppose to run over socat
-but the network made the timings to unpredictable. The solving
+but the network made the timings too unpredictable. The solving
 script would have been the same, except for the `process("./polysemy")` instruction that would have been replaced by
 `remote(HOST, PORT)`. That's the power of pwntool ;)
 
