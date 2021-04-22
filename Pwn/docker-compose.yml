@@ -1,0 +1,14 @@
+---
+version: "2.2"
+
+services:
+
+  tnteger_santa:
+    build: Integer_Santa/
+    restart: always
+    ports:
+      - "9000:9000"
+    cpus: 0.4
+    mem_limit: 512m
+    environment:
+      - LISTEN_PORT=9000

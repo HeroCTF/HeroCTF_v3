@@ -8,7 +8,10 @@ Pwn
 
 Tell Santa what you want for chrismas ! 
 
-nc chall.heroctf.fr xxxx
+```
+Host : chall0.heroctf.fr
+Port : 9000
+```
 
 Format : **Hero{flag}**<br>
 Author : **SoEasY**

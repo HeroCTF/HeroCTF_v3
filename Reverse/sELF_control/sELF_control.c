@@ -26,7 +26,7 @@ int main(){
 
 	FILE *original, *copy;
 
-	original = fopen("READFLAG", "rb");
+	original = fopen("/self/READFLAG", "rb");
 	copy = fopen(uuid, "wb");
 
 	if(original == NULL){

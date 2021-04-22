@@ -10,6 +10,7 @@ int main() {
    
   if((file = fopen("flag.txt", "r")) == NULL)
       fprintf(stderr, "WTF ? An error ? Impossible, I'm the best\n");
+      // Forgot an exit(1) here (sorry for the SEGFAULT guys)
 
     while((chr = getc(file)) != EOF)
       fprintf(stdout, "%c", chr);
