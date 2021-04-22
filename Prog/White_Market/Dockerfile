@@ -16,5 +16,5 @@ RUN chown robot:robot /home/robot/chall.py
 RUN chmod 4755 /home/robot/chall.py
 RUN chmod 4755 /home/robot/entry.sh
 
-EXPOSE 3000
+EXPOSE 8060
 ENTRYPOINT ["/home/robot/entry.sh"]
