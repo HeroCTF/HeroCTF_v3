@@ -15,4 +15,6 @@ RUN chown player:player /santa/integer_santa.bin
 RUN chmod 4755 /santa/integer_santa.bin
 RUN chmod 4755 /santa/entry.sh
 
+USER player
+
 ENTRYPOINT ["/santa/entry.sh"]

@@ -2,5 +2,5 @@
 
 while :
 do
-	su -c "exec socat TCP-LISTEN:${LISTEN_PORT},reuseaddr,fork EXEC:'/santa/entry.sh,stderr'" - player;
+	exec socat TCP-LISTEN:${LISTEN_PORT},reuseaddr,fork EXEC:'/santa/entry.sh,stderr'
 done
