@@ -61,7 +61,7 @@ Github  : https://github.com/HeroCTF
 | [PRo Number Guesser](Prog/PRoNumberGuesser)                      | Prog          | Log_s      | 50     |
 | [Wrapper](Prog/wrapper)                                          | Prog          | Log_s      | 75     |
 | [Faster](Prog/faster)                                            | Prog          | Log_s      | 75     |
-| [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | 100    |
+| [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | 125    |
 | [Puzzle Me](Prog/PuzzleMe)                                       | Prog          | Log_s      | 100    |
 | [HeroRPG](Forensics/HeroRPG)                                     | Forensics     | Log_s      | 75     |
 
