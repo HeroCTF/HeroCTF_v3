@@ -35,7 +35,6 @@ So we have a file named Nemesis.py.txt which was being edited, in the Malw4r3 fo
 We are now going to recover its contents since it is open:
 
 ![alt](images/content.png)
-
 ### Flag
 
 Hero{Golden-Dany/Pavoli-Ruben:Nemesis-4.5.1}
