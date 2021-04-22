@@ -8,7 +8,7 @@ Web
 
 Could you retrieve the flag from this Marketing company ?
 
-URL : http://chall2.heroctf.fr:9000
+URL : http://chall1.heroctf.fr:9000
 
 Format : **Hero{flag}**<br>
 Author : **xanhacks**
