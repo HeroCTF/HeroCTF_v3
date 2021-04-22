@@ -14,7 +14,7 @@ Calculate the price of your shopping before the robot does!
 
 ### Solution
 
-Check solve.py file :)
+Check solve.py file !
 
 ### Flag
 
