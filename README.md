@@ -42,7 +42,6 @@ Github  : https://github.com/HeroCTF
 | [sELF control](Reverse/sELF_control)                             | Reverse       | SoEasY     | 150    |
 | [Fat boy](Reverse/fatBoy)                                        | Reverse       | SoEasY     | 90     |
 | [WTF](Reverse/WTF)                                               | Reverse       | SoEasY     | 350    |
-| [Integer Santa](Pwn/Integer%20Santa)                             | Pwn           | SoEasY     | 75     |
 | [PrivesCorp#1 : Probation](System/PrivesCorp_1_Probation)        | System        | Log_s      | 50     |
 | [PrivesCorp#2 : Motherload](System/PrivesCorp_2_Motherload)      | System        | Log_s      | 75     |
 | [PrivesCorp#3 : HelpMe](System/PrivesCorp_3_HelpMe)              | System        | Log_s      | 100    |
@@ -65,12 +64,12 @@ Github  : https://github.com/HeroCTF
 | [Faster](Prog/faster)                                            | Prog          | Log_s      | 75     |
 | [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | 125    |
 | [Puzzle Me](Prog/PuzzleMe)                                       | Prog          | Log_s      | 100    |
-| [HeroRPG](Forensic/HeroRPG)                                     | Forensics     | Log_s      | 75     |
-| [HeroRPG](Forensic/We_Need_You1-5)                              | Forensics     | Log_s      | 75     |
-| [HeroRPG](Forensic/We_Need_You2-5)                              | Forensics     | Log_s      | 75     |
-| [HeroRPG](Forensic/We_Need_You3-5)                              | Forensics     | Log_s      | 75     |
-| [HeroRPG](Forensic/We_Need_You4-5)                              | Forensics     | Log_s      | 75     |
-| [HeroRPG](Forensic/We_Need_You5-5)                              | Forensics     | Log_s      | 75     |
+| [HeroRPG](Forensic/HeroRPG)                                      | Forensics     | Log_s      | 75     |
+| [HeroRPG](Forensic/We_Need_You1-5)                               | Forensics     | Log_s      | 75     |
+| [HeroRPG](Forensic/We_Need_You2-5)                               | Forensics     | Log_s      | 75     |
+| [HeroRPG](Forensic/We_Need_You3-5)                               | Forensics     | Log_s      | 75     |
+| [HeroRPG](Forensic/We_Need_You4-5)                               | Forensics     | Log_s      | 75     |
+| [HeroRPG](Forensic/We_Need_You5-5)                               | Forensics     | Log_s      | 75     |
 | [AI Authentication](AI/AI_auth)                                  | AI            | iHuggsy    | 45     |
 | [A(i)crostic](AI/AiCrostic)                                      | AI            | iHuggsy    | 85     |
 | [Transfer](Blockchain/Transfer)                                  | Blockchain    | iHuggsy    | 25     |
@@ -82,6 +81,7 @@ Github  : https://github.com/HeroCTF
 | [Win, but twisted](Pwn/WinButTwisted)                            | Pwn           | iHuggsy    | 30     |
 | [High Stakes](Pwn/High_Stakes)                                   | Pwn           | iHuggsy    | 50     |
 | [Happy the Boss](Pwn/Happy_The_Boss)                             | Pwn           | iHuggsy    | 75     |
+| [Integer Santa](Pwn/Integer%20Santa)                             | Pwn           | SoEasY     | 75     |
 | [RiteOfPassage](Pwn/RiteOfPassage)                               | Pwn           | iHuggsy    | 350    |
 
 
