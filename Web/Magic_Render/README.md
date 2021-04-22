@@ -12,7 +12,7 @@ Nevertheless, this one is quite permissive, you can even execute javascript with
 
 The alpha version of this project deserves to be tested before being released in production.
 
-URL : http://chall2.heroctf.fr:7000
+URL : http://chall1.heroctf.fr:8050/
 
 Format : **Hero{flag}**<br>
 Auteur : **Worty**
