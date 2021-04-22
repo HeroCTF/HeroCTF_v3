@@ -6,6 +6,7 @@ services:
     build: Assistant/
     restart: always
     mem_limit: 512m
+    cpus: 0.4
     ports:
       - "5000:22"
 
@@ -13,6 +14,7 @@ services:
     build: PrivesCorp_1_Probation/
     restart: always
     mem_limit: 512m
+    cpus: 0.4
     ports:
       - "5001:22"
 
@@ -20,6 +22,7 @@ services:
     build: PrivesCorp_2_Motherload/
     restart: always
     mem_limit: 512m
+    cpus: 0.4
     ports:
       - "5002:22"
 
@@ -27,20 +30,15 @@ services:
     build: PrivesCorp_3_HelpMe/
     restart: always
     mem_limit: 512m
+    cpus: 0.4
     ports:
       - "5002:22"
-
-  privesc_3:
-    build: PrivesCorp_3_HelpMe/
-    restart: always
-    mem_limit: 512m
-    ports:
-      - "5003:22"
 
   privesc_4:
     build: PrivesCorp_4_GoDeep/
     restart: always
     mem_limit: 512m
+    cpus: 0.4
     ports:
       - "5004:22"
 
@@ -48,5 +46,6 @@ services:
     build: TheDarkKnight/
     restart: always
     mem_limit: 512m
+    cpus: 0.4
     ports:
       - "5005:22"

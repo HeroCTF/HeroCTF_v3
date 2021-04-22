@@ -19,6 +19,4 @@ services:
     cpus: 0.4
     mem_limit: 512m
     ports:
-      - "2048:2048"
-    environment:
-      - LISTEN_PORT=2048
+      - "2048:8000"

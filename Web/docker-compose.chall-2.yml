@@ -1,0 +1,51 @@
+---
+version: "2.2"
+
+services:
+
+  winventorybdd:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    expose:
+      - 3306
+    cpus: 0.6
+    mem_limit: 2048m
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+      - MYSQL_USER=${SQL_USER}
+      - MYSQL_PASSWORD=${SQL_PASSWORD}
+      - MYSQL_DATABASE=${SQL_DATABASE}
+    volumes:
+      - "./winventorybdd/:/docker-entrypoint-initdb.d/"
+
+  winventory:
+    build: Winventory/
+    restart: always
+    ports:
+      - "8050:80"
+    cpus: 0.4
+    mem_limit: 640m
+    environment:
+      - MYSQL_HOST=winventorybdd
+      - MYSQL_USER=${SQL_USER}
+      - MYSQL_PASSWORD=${SQL_PASSWORD}
+      - MYSQL_DATABASE=${SQL_DATABASE}
+    depends_on:
+      - winventorybdd
+
+  blackmarket:
+    build: Black_Market/
+    restart: always
+    ports:
+      - "3050:3000"
+    cpus: 0.4
+    mem_limit: 640m
+
+  magic_render:
+    build: Magic_Render/
+    restart: always
+    ports:
+      - "7000:8050"
+    cpus: 0.4
+    mem_limit: 640m
