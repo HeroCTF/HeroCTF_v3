@@ -80,7 +80,6 @@ Github  : https://github.com/HeroCTF
 | [Kernel_3](Kernel/Kernel_3)                                      | Kernel        | iHuggsy    | 225    |
 | [Ring0 Calling](Kernel/ring0_calling)                            | Kernel        | SoEasy     | 100    |
 | [Win, but twisted](Pwn/WinButTwisted)                            | Pwn           | iHuggsy    | 30     |
-| [Win, but twisted](Pwn/WinButTwisted)                            | Pwn           | iHuggsy    | 30     |
 | [High Stakes](Pwn/High_Stakes)                                   | Pwn           | iHuggsy    | 50     |
 | [Happy the Boss](Pwn/Happy_The_Boss)                             | Pwn           | iHuggsy    | 75     |
 | [Integer Santa](Pwn/Integer%20Santa)                             | Pwn           | SoEasY     | 75     |
