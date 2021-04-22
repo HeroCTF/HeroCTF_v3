@@ -4,5 +4,6 @@ RUN apt update
 RUN docker-php-ext-install mysqli pdo pdo_mysql
 
 COPY ./src/ /var/www/html
+RUN chmod 777 /var/www/html/adminSecretUploadFile/
 COPY ./flag.txt /client_accounting_secret.txt
 RUN chmod 444 /client_accounting_secret.txt
