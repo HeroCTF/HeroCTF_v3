@@ -6,7 +6,7 @@
 -- Généré le :  Dim 27 déc. 2020 à 23:39
 -- Version du serveur :  10.4.11-MariaDB
 -- Version de PHP :  7.4.1
-USE sec101;
+USE winventory;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;

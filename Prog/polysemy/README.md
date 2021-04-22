@@ -22,7 +22,7 @@ Port : 7004
 Format : **HERO(FLAG)**<br>
 Author : **Log_s**
 
-## Hints
+### Hints
  - The flag format is slightly different from the usual one
  - Tic Tac, Tic Tac
 

@@ -51,4 +51,4 @@ int main()
 
 ### Flag
 
-Hero{S3eD3d_Scr4Mbl3}
+Hero{y0u_c4n_4ls0_Wr1t3_?!!}

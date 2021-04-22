@@ -30,17 +30,17 @@ __builtins__.__dict__["open"] = ""
 
 # Checking entry conditions
 if (len(argv) < 3):
-    print("That's a bit short, you have to ask nicely\n")
+    print(" > That's a bit short, you have to ask nicely <\n")
     exit()
 try:
-    if(re.match(re.compile("^[^A-RT-Za-z0-9]e[s].$"), ssh_arg[0]+ssh_arg[1]+ssh_arg[2]+ssh_arg[3]) == None or ssh_arg[3]+ssh_arg[4]+ssh_arg[5] != chr(97)+chr(109)+chr(101)):
+    if(ssh_arg[3]+ssh_arg[4]+ssh_arg[5] != chr(97)+chr(109)+chr(101) or re.match(re.compile("^[^A-RT-Za-z0-9]e[s].$"), ssh_arg[0]+ssh_arg[1]+ssh_arg[2]+ssh_arg[3]) == None):
         print("That's better, but what's the magik word ?\n")
         exit()
-except:
+except IndexError:
     # faking error for docker
     print("Traceback (most recent call last):")
     print(' File "/home/bob/shell.py", line 32, in <module>')
-    print('  if(re.match(re.compile("^[^A-RT-Za-z0-9]e[s].$"), ssh_arg[0]+ssh_arg[1]+ssh_arg[2]+ssh_arg[3]) == None or ssh_arg[3]+ssh_arg[4]+ssh_arg[5] != chr(97)+chr(109)+chr(101)):')
+    print('  if(ssh_arg[3]+ssh_arg[4]+ssh_arg[5] != chr(97)+chr(109)+chr(101) or re.match(re.compile("^[^A-RT-Za-z0-9]e[s].$"), ssh_arg[0]+ssh_arg[1]+ssh_arg[2]+ssh_arg[3]) == None):')
     print('IndexError: string index out of range')
     exit()
 
@@ -79,6 +79,8 @@ while True:
     
     except FileNotFoundError:
         print("Can't open something that doesn't exist. Makes sense right ?")
+    except NameError:
+        print("I don't know this command. Are you sure you are allowed to run it ?")
     except:
         print("Oups, something went wrong. Wait ?? Did you break something ?")
         exit()
