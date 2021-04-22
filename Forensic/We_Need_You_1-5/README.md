@@ -23,6 +23,15 @@ Format: **Hero{Name}**
 
 ### Write up
 
+In all the challenges of this series, we must use volatility, allowing us to analyze the memory dump.
 
+First step: Identify the profile to use for volatility.
 
+![alt](images/getprofile.png)
+
+The profile we are going to use is Win7SP1x86_23418, so we must determine the name of the computer:
+
+![alt](images/computername.png)
 ### Flag
+
+Hero{KANNIBAL}
