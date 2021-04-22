@@ -29,9 +29,9 @@ Github  : https://github.com/HeroCTF
 | [Pushhh](OSINT/Pushhh)                                           | OSINT         | xanhacks   | 35     |
 | [ProtonDate](OSINT/ProtonDate)                                   | OSINT         | xanhacks   | 40     |
 | [Social ID #2](OSINT/Social_ID_2)                                | OSINT         | xanhacks   | 50     |
-| [You Should Die](Web/YouShouldDie)                               | Web           | xanhacks   | 50     |
 | [PwnQL #1](Web/PwnQL_1)                                          | Web           | xanhacks   | 50     |
-| [0xSSRF](Web/0xSSRF)                                             | Web           | xanhacks   | 50     |
+| [0xSSRF](Web/0xSSRF)                                             | Web           | xanhacks   | 60     |
+| [You Should Die](Web/YouShouldDie)                               | Web           | xanhacks   | 60     |
 | [PwnQL #2](Web/PwnQL_2)                                          | Web           | xanhacks   | 75     |
 | [Black Market](Web/Black_Market)				                   | Web	       | Worty      | 150    |
 | [Magic Render](Web/Magic_Render)                                 | Web           | Worty      | 200    |
@@ -82,7 +82,7 @@ Github  : https://github.com/HeroCTF
 | [Win, but twisted](Pwn/WinButTwisted)                            | Pwn           | iHuggsy    | 30     |
 | [High Stakes](Pwn/High_Stakes)                                   | Pwn           | iHuggsy    | 50     |
 | [Happy the Boss](Pwn/Happy_The_Boss)                             | Pwn           | iHuggsy    | 75     |
-| [Integer Santa](Pwn/Integer%20Santa)                             | Pwn           | SoEasY     | 75     |
+| [Integer Santa](Pwn/Integer_Santa)                               | Pwn           | SoEasY     | 75     |
 | [RiteOfPassage](Pwn/RiteOfPassage)                               | Pwn           | iHuggsy    | 350    |
 
 
