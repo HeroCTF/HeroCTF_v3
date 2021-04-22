@@ -19,7 +19,7 @@ Author : **SoEasY**
 
 This challenge in nothing more than a sudoku game enchanced with SSE inctructions (cf XMM registers). The binary is stripped and at the macho format (OSX) to harden binary analysis (sorry for that :D).
 
-<img src="https://user-images.githubusercontent.com/34216946/115773560-c3d4b200-a3b0-11eb-8156-505d955ddcd1.png" width="350" height="350">
+<img src="https://user-images.githubusercontent.com/34216946/115773560-c3d4b200-a3b0-11eb-8156-505d955ddcd1.png" width="500" height="500">
 
 The programm will split your input like that : 
 - row number (as int)
