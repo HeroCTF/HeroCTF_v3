@@ -67,11 +67,11 @@ Github  : https://github.com/HeroCTF
 | [White Market](Prog/White_Market)                                | Prog          | Worty      | 100    |
 | [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | 125    |
 | [HeroRPG](Forensic/HeroRPG)                                      | Forensic      | Log_s      | 75     |
-| [HeroRPG](Forensic/We_Need_You1-5)                               | Forensic      | Worty      | 50     |
-| [HeroRPG](Forensic/We_Need_You2-5)                               | Forensic      | Worty      | 75     |
-| [HeroRPG](Forensic/We_Need_You3-5)                               | Forensic      | Worty      | 100    |
-| [HeroRPG](Forensic/We_Need_You4-5)                               | Forensic      | Worty      | 150    |
-| [HeroRPG](Forensic/We_Need_You5-5)                               | Forensic      | Worty      | 250    |
+| [We need you 1/5](Forensic/We_Need_You1-5)                       | Forensic      | Worty      | 50     |
+| [We need you 2/5](Forensic/We_Need_You2-5)                       | Forensic      | Worty      | 75     |
+| [We need you 3/5](Forensic/We_Need_You3-5)                       | Forensic      | Worty      | 100    |
+| [We need you 4/5](Forensic/We_Need_You4-5)                       | Forensic      | Worty      | 150    |
+| [We need you 5/5](Forensic/We_Need_You5-5)                       | Forensic      | Worty      | 250    |
 | [AI Authentication](AI/AI_auth)                                  | AI            | iHuggsy    | 45     |
 | [A(i)crostic](AI/AiCrostic)                                      | AI            | iHuggsy    | 85     |
 | [Transfer](Blockchain/Transfer)                                  | Blockchain    | iHuggsy    | 25     |
