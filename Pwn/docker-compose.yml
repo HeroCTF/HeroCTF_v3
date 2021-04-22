@@ -3,7 +3,7 @@ version: "2.2"
 
 services:
 
-  tnteger_santa:
+  integer_santa:
     build: Integer_Santa/
     restart: always
     ports:
@@ -12,3 +12,19 @@ services:
     mem_limit: 512m
     environment:
       - LISTEN_PORT=9000
+
+  high_stakes:
+    build: High_Stakes/
+    restart: always
+    ports:
+      - "9001:9001"
+    cpus: 0.4
+    mem_limit: 512m
+
+  high_stakes:
+    build: High_Stakes/
+    restart: always
+    ports:
+      - "9001:9001"
+    cpus: 0.4
+    mem_limit: 512m

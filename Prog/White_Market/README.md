@@ -12,7 +12,15 @@ A robot scans barcodes at a phenomenal speed, you tell yourself that with a litt
 
 Calculate the price of your shopping before the robot does!
 
-### Solution
+```
+Host : chall0.heroctf.fr
+Port : 7005
+```
+
+Format : **Hero{flag}**<br>
+Author : **Worty**
+
+### Write up
 
 Check solve.py file !
 
