@@ -34,7 +34,8 @@ Github  : https://github.com/HeroCTF
 | [0xSSRF](Web/0xSSRF)                                             | Web           | xanhacks   | 50     |
 | [PwnQL #2](Web/PwnQL_2)                                          | Web           | xanhacks   | 75     |
 | [Black Market](Web/Black_Market)				                   | Web	       | Worty      | 150    |
-| [Winventory](Web/Winventory)					                   | Web	       | Worty	    | 200	 |
+| [Magic Render](Web/Magic_Render)                                 | Web           | Worty      | 200    |
+| [Winventory](Web/Winventory)					                   | Web	       | Worty	    | 250	 |
 | [JNI](Reverse/JNI)                                               | Reverse       | xanhacks   | 125    |
 | [ARMada](Reverse/ARMada)                                         | Reverse       | SoEasY     | 200    |
 | [RustInPeace](Reverse/RustInPeace)                               | Reverse       | SoEasY     | 200    |
@@ -62,14 +63,15 @@ Github  : https://github.com/HeroCTF
 | [PRo Number Guesser](Prog/PRoNumberGuesser)                      | Prog          | Log_s      | 50     |
 | [Wrapper](Prog/wrapper)                                          | Prog          | Log_s      | 75     |
 | [Faster](Prog/faster)                                            | Prog          | Log_s      | 75     |
-| [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | 125    |
 | [Puzzle Me](Prog/PuzzleMe)                                       | Prog          | Log_s      | 100    |
-| [HeroRPG](Forensic/HeroRPG)                                      | Forensics     | Log_s      | 75     |
-| [HeroRPG](Forensic/We_Need_You1-5)                               | Forensics     | Log_s      | 75     |
-| [HeroRPG](Forensic/We_Need_You2-5)                               | Forensics     | Log_s      | 75     |
-| [HeroRPG](Forensic/We_Need_You3-5)                               | Forensics     | Log_s      | 75     |
-| [HeroRPG](Forensic/We_Need_You4-5)                               | Forensics     | Log_s      | 75     |
-| [HeroRPG](Forensic/We_Need_You5-5)                               | Forensics     | Log_s      | 75     |
+| [White Market](Prog/White_Market)                                | Prog          | Worty      | 100    |
+| [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | 125    |
+| [HeroRPG](Forensic/HeroRPG)                                      | Forensic      | Log_s      | 75     |
+| [HeroRPG](Forensic/We_Need_You1-5)                               | Forensic      | Log_s      | 75     |
+| [HeroRPG](Forensic/We_Need_You2-5)                               | Forensic      | Log_s      | 75     |
+| [HeroRPG](Forensic/We_Need_You3-5)                               | Forensic      | Log_s      | 75     |
+| [HeroRPG](Forensic/We_Need_You4-5)                               | Forensic      | Log_s      | 75     |
+| [HeroRPG](Forensic/We_Need_You5-5)                               | Forensic      | Log_s      | 75     |
 | [AI Authentication](AI/AI_auth)                                  | AI            | iHuggsy    | 45     |
 | [A(i)crostic](AI/AiCrostic)                                      | AI            | iHuggsy    | 85     |
 | [Transfer](Blockchain/Transfer)                                  | Blockchain    | iHuggsy    | 25     |
