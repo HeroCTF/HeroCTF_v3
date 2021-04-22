@@ -21,10 +21,18 @@ services:
     cpus: 0.4
     mem_limit: 512m
 
-  high_stakes:
-    build: High_Stakes/
+  riteofpassage:
+    build: RiteOfPassage/
     restart: always
     ports:
-      - "9001:9001"
+      - "9002:9002"
+    cpus: 0.4
+    mem_limit: 512m
+
+  winbuttwisted:
+    build: WinButTwisted/
+    restart: always
+    ports:
+      - "9003:9003"
     cpus: 0.4
     mem_limit: 512m
