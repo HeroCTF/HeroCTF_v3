@@ -9,6 +9,11 @@ Pwn
 Just a little warm up, but hey, without the twist it would've been too simple.
 Get the flag from the server.
 
+```
+Host : pwn.heroctf.fr
+Port : 9003
+```
+
 Format : **Hero{flag}**
 Author : **iHuggsy**
 

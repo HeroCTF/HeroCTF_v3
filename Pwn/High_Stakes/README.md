@@ -12,6 +12,11 @@ This does not seem possible.
 I really wanted to buy the flag from the shop, but right now I'm so broke I'm not even allowed to think about it.
 Lucky as you are, you'll manage to win enough money to buy it for me, right bro ?
 
+```
+Host : pwn.heroctf.fr
+Port : 9001
+```
+
 Format : **Hero{flag}**  
 Author : **iHuggsy**
 
