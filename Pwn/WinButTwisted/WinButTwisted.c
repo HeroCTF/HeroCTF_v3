@@ -2,8 +2,11 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
 
 int UNLOCKED = 0;
+
 
 void set_lock()
 {
@@ -16,9 +19,10 @@ void shell()
     printf("In shell function ! ");
     if (UNLOCKED == 1)
     {
-        printf("Getting shell ! ");
-        setreuid(geteuid(), geteuid());
-        system("/bin/sh");
+        char *buf;
+        int fd = open("pwn/flag", O_RDONLY);
+        read(fd, &buf, 50);
+        printf("%.*s", 50, &buf);
     }
 
     
@@ -36,6 +40,7 @@ void look_like()
 
 int main()
 {
+    setbuf(stdout, 0);
     int (*look)() = look_like;
     int (*hello)() = hello_hero;
     char buffer[32];

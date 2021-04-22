@@ -1,0 +1,7 @@
+-> 0x000000000045edea : syscall ; ret
+-> 0x000000000043caa9 : xor rax, rax ; ret
+-> 0x0000000000401a31 : pop rdi ; ret
+-> 0x00000000004474b7 : pop rax ; ret
+-> 0x000000000040890e : pop rsi ; ret
+-> 0x000000000040176f : pop rdx ; ret
+-> 0x0000000000409f22 : mov dword ptr [rdi], eax ; ret

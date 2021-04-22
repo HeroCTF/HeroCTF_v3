@@ -15,6 +15,7 @@ void do_a_barrel_roll()
 
 int main(int argc, char **argv)
 {
+    setbuf(stdout, 0);
     printf("Please, give us your thoughts about our client service :\n>>>");
 
     char who[350];
