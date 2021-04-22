@@ -24,8 +24,7 @@ The programm will split your input like that :
 - value to put (as char)
 
 The initialisation part in \_start give you the grid, with a ' ' for the blanks.
-
-![image](https://user-images.githubusercontent.com/34216946/115768094-22e2f880-a3aa-11eb-93c1-80f4e558d246.png)
+<img src="https://user-images.githubusercontent.com/34216946/115768094-22e2f880-a3aa-11eb-93c1-80f4e558d246.png" width="250" height="250">.
 
 Jou can then use an online sudoku solver to have the correct input.
 
