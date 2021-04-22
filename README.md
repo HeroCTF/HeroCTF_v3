@@ -64,7 +64,20 @@ Github  : https://github.com/HeroCTF
 | [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | 125    |
 | [Puzzle Me](Prog/PuzzleMe)                                       | Prog          | Log_s      | 100    |
 | [HeroRPG](Forensics/HeroRPG)                                     | Forensics     | Log_s      | 75     |
-
+| [AI Authentication](AI/AI_auth)                                  | AI            | iHuggsy    | 45     |
+| [A(i)crostic](AI/AiCrostic)                                      | AI            | iHuggsy    | 85     |
+| [Transfer](Blockchain/Transfer)                                  | Blockchain    | iHuggsy    | 25     |
+| [Kernel_1](Kernel/Kernel_1)                                      | Kernel        | iHuggsy    | 50     |
+| [Kernel_2](Kernel/Kernel_2)                                      | Kernel        | iHuggsy    | 175    |
+| [Kernel_3](Kernel/Kernel_3)                                      | Kernel        | iHuggsy    | 225    |
+| [Ring0 Calling](Kernel/ring0_calling)                            | Kernel        | SoEasy     | 100    |
+| [Win, but twisted](Pwn/WinButTwisted)                            | Pwn           | iHuggsy    | 30     |
+| [Win, but twisted](Pwn/WinButTwisted)                            | Pwn           | iHuggsy    | 30     |
+| [High Stakes](Pwn/High_Stakes)                                   | Pwn           | iHuggsy    | 50     |
+| [Happy the Boss](Pwn/Happy_The_Boss)                             | Pwn           | iHuggsy    | 75     |
+| [RiteOfPassage](Pwn/RiteOfPassage)                               | Pwn           | iHuggsy    | 350    |
+| [RansomWTF](Steganography/RansomWTF)                             | Steganography | iHuggsy    | 60     |
+| [Subliminal](Steganography/Subliminal)                           | Steganography | iHuggsy    | 95     |
 
 
 **Total : XX challenges (XXXX points)**
