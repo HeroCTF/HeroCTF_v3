@@ -50,7 +50,7 @@ while True:
     timings.append(d)
     #if (d > 0.05):
         
-        
+print(timings)    
         #flag1 += FLAG_CASE1[d]
         #flag2 += FLAG_CASE2[d]
 

@@ -49,7 +49,7 @@ for letter in HIDDEN:
             print(DISPLAYED[displayed_pointer], end="")
             displayed_pointer += 1
             if m == ".":
-                pause(2)
+                pause(1)
             else:
                 pause(3)
             if (i == len(morse)-1):
