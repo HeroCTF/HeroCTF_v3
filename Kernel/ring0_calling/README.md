@@ -87,7 +87,7 @@ int main(int argc, char *argv[]){
 }
 ```
 
-Then, if we dmesg :
+Then, if we use the `dmesg` command we can see at the end :
 
 > [   24.598590] Hero{0h_d4mn_y0u_4r2_th3_sysc4ll_m4st3r_!!!}
 
