@@ -26,4 +26,7 @@ Then you can read the article to find the place.
 Hero{Remparts Portes Mordelaises}<br>
 Hero{Les Portes Mordelaises}<br>
 Hero{Portes Mordelaises}<br>
-Hero{Mordelaises}
+Hero{Mordelaises}<br>
+Hero{PortesMordelaises}<br>
+Hero{PorteMordelaise}<br>
+Hero{Porte Mordelaise}
