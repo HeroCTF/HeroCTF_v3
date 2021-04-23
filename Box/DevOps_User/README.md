@@ -15,7 +15,8 @@ Author : **xanhacks**
 
 ### Hints
 
-There are a some steps and a lot of information to consider before validating this machine, but the overall level remains easy.
+- There are a some steps and a lot of information to consider before validating this machine, but the overall level remains easy.
+- The machine resets itself every hour, so keep track of your work !
 
 ### Files
 
