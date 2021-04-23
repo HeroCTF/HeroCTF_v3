@@ -96,7 +96,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ### Flags
 
-Hero{5349616:1337404}
-Hero{5349617:1337404}
-Hero{5349618:1337404}
-Hero{5349619:1337404}
+- Hero{5349616:1337404}
+- Hero{5349617:1337404}
+- Hero{5349618:1337404}
+- Hero{5349619:1337404}
