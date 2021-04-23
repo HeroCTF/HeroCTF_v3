@@ -8,7 +8,7 @@ Box
 
 Can you find the **user.txt flag** on the box ?
 
-URL : **http://box.heroctf.fr ** (only dockers are on the scope, not the real machine behind)
+URL : http://box.heroctf.fr (only dockers are on the scope, not the real machine behind)
 
 The machine resets itself every hour, so keep track of your work !
 
