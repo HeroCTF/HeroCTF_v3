@@ -16,7 +16,7 @@ Author : **SoEasY & iHuggsy**
 
 ### Write up
 
-After looking in the "backup" folder, we see that there is a syscall_tbl which lists all the syscalls callable by the system.
+After looking in the `/backups` folder, we see that there is a syscall_tbl which lists all the syscalls callable by the system.
 Number 442 is the __NR_HERO and Seems to be interesting !
 
 We just have to call it and see what happens.
@@ -56,8 +56,14 @@ You can then assemble and link the program :
 $ nasm -f ELF64 -o shellcode.o shellcode.nasm
 $ ld -o shellcode shellcode.o
 ```
-Then execute it on the VM : 
+
+You can then base64 your compiled binary, run the Qemu VM, go to /mnt/share and use vim to paste our base64 into a temporary file. Then base64 -d this file to a new file and execute your binary !
+
 ```bash
+$ cd /mnt/share
+$ vim temp
+$ base64 -d temp > shellcode
+$ chmod +x shellcode
 $ ./shellcode                 
 Syscall executed!
 Check dmesg now :)
@@ -89,7 +95,29 @@ int main(int argc, char *argv[]){
 
 Then, if we use the `dmesg` command we can see at the end :
 
-> [   24.598590] Hero{0h_d4mn_y0u_4r2_th3_sysc4ll_m4st3r_!!!}
+```
+[...]
+[    1.864165] Freeing unused kernel image (initmem) memory: 1192K
+[    1.867397] Write protecting the kernel read-only data: 20480k
+[    1.870326] Freeing unused kernel image (text/rodata gap) memory: 2032K
+[    1.871748] Freeing unused kernel image (rodata/data gap) memory: 576K
+[    1.872798] Run /init as init process
+[    1.872816]   with arguments:
+[    1.872835]     /init
+[    1.872851]   with environment:
+[    1.872869]     HOME=/
+[    1.872878]     TERM=linux
+[    1.966004] busybox (65) used greatest stack depth: 14800 bytes left
+[    2.021415] mount (68) used greatest stack depth: 14472 bytes left
+[    2.128192] tsc: Refined TSC clocksource calibration: 3094.174 MHz
+[    2.128740] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2c99c85147f, max_idle_ns: 440795276187 ns
+[    2.130438] clocksource: Switched to clocksource tsc
+[    2.390885] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+[    8.315779] ls (73) used greatest stack depth: 14280 bytes left
+[   44.505155] random: crng init done
+[   79.864089] Hero{0h_d4mn_y0u_4r2_th3_sysc4ll_m4st3r_!!!}
+[   79.867214] binary (85) used greatest stack depth: 14136 bytes left
+```
 
 
 ### Flag
