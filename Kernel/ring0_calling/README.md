@@ -21,29 +21,7 @@ Number 442 is the __NR_HERO and Seems to be interesting !
 
 We just have to call it and see what happens.
 
-```C
-#define __NR_hero 442
-
-long hero_syscall(void){
-    return syscall(__NR_hero);
-}
-
-int main(int argc, char *argv[]){
-    long activity;
-    activity = hero_syscall();
-
-    if(activity < 0){
-        perror("Seems like it's a fail !\n");
-    }
-
-    else{
-        printf("Seems ok, try to dmesg\n");
-    }
-    return 0;
-}
-```
-
-We also can call it by developping in assembly directly (nasm can be usefull for that).
+### Solution by SoEasY - in assembly (nasm) 
 
 ```nasm
 BITS 64
@@ -83,6 +61,30 @@ Then execute it on the VM :
 $ ./shellcode                 
 Syscall executed!
 Check dmesg now :)
+```
+
+### Solution by iHuggsy - in C
+
+```C
+#define __NR_hero 442
+
+long hero_syscall(void){
+    return syscall(__NR_hero);
+}
+
+int main(int argc, char *argv[]){
+    long activity;
+    activity = hero_syscall();
+
+    if(activity < 0){
+        perror("Seems like it's a fail !\n");
+    }
+
+    else{
+        printf("Seems ok, try to dmesg\n");
+    }
+    return 0;
+}
 ```
 
 Then, if we dmesg :
