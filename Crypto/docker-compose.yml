@@ -1,0 +1,14 @@
+---
+version: "2.2"
+
+services:
+
+  extractmyblocks:
+    build: ExtractMyBlocks/
+    restart: always
+    ports:
+      - "10000:10000"
+    cpus: 0.4
+    mem_limit: 512m
+    environment:
+      - LISTEN_PORT=10000
