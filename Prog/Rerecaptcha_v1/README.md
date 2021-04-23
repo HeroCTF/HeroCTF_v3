@@ -9,7 +9,7 @@ Prog
 Damn hackers keep pwning my website, I've finally found a way to slow them down
 
 Format : **Hero{flag}**<br>
-Author : **alol**
+Author : **yarienkiva**
 
 ### Files
 
