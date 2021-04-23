@@ -12,3 +12,5 @@ services:
     mem_limit: 512m
     environment:
       - LISTEN_PORT=10000
+      - FLAG=Hero{_BL0CK5_}
+      - KEY=8eb4485adb1fa1436518b42e1160fc0c
