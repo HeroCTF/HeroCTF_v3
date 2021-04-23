@@ -68,8 +68,8 @@ Github  : https://github.com/HeroCTF
 | [Puzzle Me](Prog/PuzzleMe)                                       | Prog          | Log_s      | 100    |
 | [White Market](Prog/White_Market)                                | Prog          | Worty      | 100    |
 | [Polysemy](Prog/polysemy)                                        | Prog          | Log_s      | 125    |
-| [Recaptcha_v1](Prog/Recaptcha_v1)                                | Prog          | yarienkiva | 200    |
-| [Recaptcha_v1](Prog/Recaptcha_v2)                                | Prog          | yarienkiva | 200    |
+| [Rerecaptcha_v1](Prog/Rerecaptcha_v1)                            | Prog          | yarienkiva | 200    |
+| [Rerecaptcha_v2](Prog/Rerecaptcha_v2)                            | Prog          | yarienkiva | 200    |
 | [HeroRPG](Forensic/HeroRPG)                                      | Forensic      | Log_s      | 75     |
 | [We need you 1/5](Forensic/We_Need_You_1-5)                      | Forensic      | Worty      | 50     |
 | [We need you 2/5](Forensic/We_Need_You_2-5)                      | Forensic      | Worty      | 75     |
