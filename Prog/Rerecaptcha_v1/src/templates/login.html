@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rerecaptcha</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/ressources/style.css">
+</head>
+<body>
+  <div class="login-page">
+    <div class="form">
+      <form class="login-form" method="POST">
+        <input type="text" placeholder="username" id="username" name="username"/>
+        <input type="password" placeholder="password" id="password" name="password"/>
+        <input type="text" placeholder="captcha" id="pincode" name="pincode"/>
+        <img src="data:image/png;base64,{{ captcha }}" class="center">
+        <br><br>
+        <button>login</button>
+        <p class="status">{{ status }}</p>
+        <p class="message">Not registered? <a href="#">Too bad</a></p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
+
