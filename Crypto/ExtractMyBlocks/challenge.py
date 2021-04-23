@@ -3,8 +3,8 @@ from os import getenv
 from Crypto.Cipher import AES
 
 BLOCK_SIZE = 16
-FLAG = getenv("FLAG")  # "Hero{_BL0CK5_}"
-KEY = getenv("KEY")  # KEY = "8eb4485adb1fa1436518b42e1160fc0c"
+FLAG = getenv("FLAG")
+KEY = getenv("KEY")
 
 
 padding = lambda msg: msg + "0" * (BLOCK_SIZE - len(msg) % BLOCK_SIZE)
