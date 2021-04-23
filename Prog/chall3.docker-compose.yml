@@ -1,0 +1,21 @@
+version: "3.5"
+
+services:
+  rerecaptcha_v1:
+    build: Rerecaptcha_v1/
+    restart: always
+    ports:
+      - "8081:5000"
+    depends_on: 
+      - redis
+
+  rerecaptcha_v2:
+    build: Rerecaptcha_v2/ 
+    restart: always
+    ports:
+      - "8082:5000"
+    depends_on: 
+      - redis
+
+  redis:
+    image: "redis:alpine"
