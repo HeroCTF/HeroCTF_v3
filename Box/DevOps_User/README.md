@@ -10,13 +10,14 @@ Can you find the **user.txt flag** on the box ?
 
 URL : **http://box.heroctf.fr ** (only dockers are on the scope, not the real machine behind)
 
+The machine resets itself every hour, so keep track of your work !
+
 Format : **Hero{flag}**<br>
 Author : **xanhacks**
 
 ### Hints
 
 - There are a some steps and a lot of information to consider before validating this machine, but the overall level remains easy.
-- The machine resets itself every hour, so keep track of your work !
 
 ### Files
 
