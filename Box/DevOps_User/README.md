@@ -18,6 +18,7 @@ Author : **xanhacks**
 ### Hints
 
 - There are a some steps and a lot of information to consider before validating this machine, but the overall level remains easy.
+- You get a password ? Check other services !
 
 ### Files
 
