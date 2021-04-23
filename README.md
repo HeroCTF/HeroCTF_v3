@@ -36,13 +36,14 @@ Github  : https://github.com/HeroCTF
 | [Black Market](Web/Black_Market)				                   | Web	       | Worty      | 150    |
 | [Magic Render](Web/Magic_Render)                                 | Web           | Worty      | 200    |
 | [Winventory](Web/Winventory)					                   | Web	       | Worty	    | 250	 |
-| [JNI](Reverse/JNI)                                               | Reverse       | xanhacks   | 125    |
-| [ARMada](Reverse/ARMada)                                         | Reverse       | SoEasY     | 200    |
-| [RustInPeace](Reverse/RustInPeace)                               | Reverse       | SoEasY     | 200    |
-| [Password Keeper](Reverse/Password%20Keeper)                     | Reverse       | SoEasY     | 80     |
-| [sELF control](Reverse/sELF_control)                             | Reverse       | SoEasY     | 150    |
-| [Fat boy](Reverse/fatBoy)                                        | Reverse       | SoEasY     | 90     |
-| [WTF](Reverse/WTF)                                               | Reverse       | SoEasY     | 350    |
+| [JNI](Reverse/JNI)                                               | Reverse       | xanhacks   | 90     |
+| [ARMada](Reverse/ARMada)                                         | Reverse       | SoEasY     | 110    |
+| [RustInPeace](Reverse/RustInPeace)                               | Reverse       | SoEasY     | 115    |
+| [Password Keeper](Reverse/Password%20Keeper)                     | Reverse       | SoEasY     | 100    |
+| [sELF control](Reverse/sELF_control)                             | Reverse       | SoEasY     | 75     |
+| [Fat boy](Reverse/fatBoy)                                        | Reverse       | SoEasY     | 125    |
+| [WTF](Reverse/WTF)                                               | Reverse       | SoEasY     | 250    |
+| [EasyAssembly](Reverse/EasyAssembly)                             | Reverse       | SoEasY     | 40     |
 | [PrivesCorp#1 : Probation](System/PrivesCorp_1_Probation)        | System        | Log_s      | 50     |
 | [PrivesCorp#2 : Motherload](System/PrivesCorp_2_Motherload)      | System        | Log_s      | 75     |
 | [PrivesCorp#3 : HelpMe](System/PrivesCorp_3_HelpMe)              | System        | Log_s      | 100    |
@@ -78,7 +79,7 @@ Github  : https://github.com/HeroCTF
 | [Kernel_1](Kernel/Kernel_1)                                      | Kernel        | iHuggsy    | 50     |
 | [Kernel_2](Kernel/Kernel_2)                                      | Kernel        | iHuggsy    | 175    |
 | [Kernel_3](Kernel/Kernel_3)                                      | Kernel        | iHuggsy    | 225    |
-| [Ring0 Calling](Kernel/ring0_calling)                            | Kernel        | SoEasy     | 100    |
+| [Ring0 Calling](Kernel/ring0_calling)                            | Kernel        | SoEasY     | 100    |
 | [Win, but twisted](Pwn/WinButTwisted)                            | Pwn           | iHuggsy    | 30     |
 | [High Stakes](Pwn/High_Stakes)                                   | Pwn           | iHuggsy    | 50     |
 | [Happy the Boss](Pwn/Happy_The_Boss)                             | Pwn           | iHuggsy    | 75     |
