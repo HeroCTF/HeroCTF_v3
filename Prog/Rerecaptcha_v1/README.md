@@ -6,7 +6,7 @@ Prog
 
 ### Description
 
-Damn hackers keep pwning my website, I've finally found a way to slow them down
+Damn hackers keep pwning my website, I've finally found a way to slow them down.
 
 Format : **Hero{flag}**<br>
 Author : **yarienkiva**
