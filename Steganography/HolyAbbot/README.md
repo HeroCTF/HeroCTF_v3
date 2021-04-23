@@ -12,6 +12,7 @@ A certain abbot tried to give us a message...
 
 Format : **Hero{message}**<br>
 Author : **Thib**
+15 points
 
 ### Files
 
