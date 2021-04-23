@@ -32,7 +32,7 @@ services:
     mem_limit: 512m
     cpus: 0.4
     ports:
-      - "5002:22"
+      - "5003:22"
 
   privesc_4:
     build: PrivesCorp_4_GoDeep/
