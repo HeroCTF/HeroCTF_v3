@@ -23,4 +23,4 @@ You can use an application available on android or iOS called "PhonoPaper". Then
 
 ### Flag
 
-HERO{PH0N0_P4PER}
+HERO{PH0N0_P4P3R}
