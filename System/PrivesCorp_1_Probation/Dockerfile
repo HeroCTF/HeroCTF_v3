@@ -11,7 +11,7 @@ RUN echo 'bob:password123' | chpasswd
 RUN mkdir -p /run/sshd
 
 COPY warning.sh /bin/warning.sh
-COPY note.txt /home/bob
+COPY note.txt /root
 COPY howto.txt /etc/motd
 COPY locked.txt /home/bob/
 COPY locked.txt /root/
