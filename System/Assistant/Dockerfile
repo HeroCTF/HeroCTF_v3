@@ -29,6 +29,8 @@ RUN (crontab -l 2>/dev/null; echo "* * * * * /bin/rm -rf /home/brian/*\n# new li
 RUN rm /bin/ls
 RUN ln -s /bin/warning.sh /bin/ls
 
+RUN ln -sf /dev/null /home/brian/.bash_history
+
 COPY howto.txt /etc/motd
 EXPOSE 22
 

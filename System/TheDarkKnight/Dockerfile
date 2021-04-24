@@ -28,7 +28,8 @@ RUN mkdir -p /home/bonnie_winter/.ssh
 RUN cp /home/gordon/.ssh/id_rsa.pub /home/bonnie_winter/.ssh/authorized_keys
 
 RUN usermod -g shadow bradley_warner
-
+RUN ln -sf /dev/null /home/gordon/.bash_history
+RUN ln -sf /dev/null /home/bradley_warner/.bash_history
 
 RUN mkdir -p /run/sshd
 COPY howto.txt /etc/motd

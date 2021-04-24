@@ -28,6 +28,8 @@ RUN chmod 333 /tmp
 
 RUN (crontab -l 2>/dev/null; echo "* * * * * rm -rf /tmp/*") | crontab -
 
+RUN ln -sf /dev/null /home/bob/.bash_history
+
 RUN chmod -x /etc/update-motd.d/*
 EXPOSE 22
 

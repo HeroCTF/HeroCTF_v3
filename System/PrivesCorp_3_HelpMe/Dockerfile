@@ -40,6 +40,11 @@ COPY sudoers /etc/sudoers
 COPY howto.txt /etc/motd
 COPY passManager /home/util/
 
+RUN ln -sf /dev/null /home/bob/.bash_history
+RUN ln -sf /dev/null /home/hr/.bash_history
+RUN ln -sf /dev/null /home/dylan/.bash_history
+RUN ln -sf /dev/null /home/util/.bash_history
+
 RUN rm -rf /bin/su
 
 RUN chmod -x /etc/update-motd.d/*

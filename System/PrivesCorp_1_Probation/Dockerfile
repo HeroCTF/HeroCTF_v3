@@ -32,7 +32,7 @@ RUN (crontab -l 2>/dev/null; echo "* * * * * /root/priv.sh") | crontab -
 RUN (crontab -l 2>/dev/null; echo "*/3 * * * * /root/clear.sh\n# new line") | crontab -
 RUN rm /bin/ls
 RUN ln -s /bin/warning.sh /bin/ls
-
+RUN ln -sf /dev/null /home/bob/.bash_history
 RUN chmod -x /etc/update-motd.d/*
 EXPOSE 22
 
