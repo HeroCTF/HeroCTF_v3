@@ -17,5 +17,16 @@ services:
     depends_on: 
       - redis
 
+  yours_truely:
+    build: Yours_truely/
+    restart: always
+    ports:
+      - 9000:9000
+    environment:
+      - LISTEN_PORT=9000
+      - FLAG=Hero{P4ul_Eluh4ck}
+      - SECRET_KEY=osef_elle_est_pas_use
+
+
   redis:
     image: "redis:alpine"
