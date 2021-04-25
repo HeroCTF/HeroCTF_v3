@@ -42,16 +42,19 @@ def generateCaptcha(pin):
 	img = Image.new('RGB', (6*len(pin)+20, 30), color='white')
 	h, w = img.size
 
+	fnt = ImageFont.truetype('static/ressources/Arial.ttf', 12)
+
 	d = ImageDraw.Draw(img)
 
-	d.rectangle([(0,0), img.size], fill=rr(65535)) 
-	d.text((10,10), pin, fill=0)
+	d.rectangle([(0,0), img.size], fill=rr(65535))
+	d.fontmode = "1"
+	d.text((7,7), pin, font=fnt, fill=0)
 	d.line((0, rr(w), h*2, rr(w)), fill=rr(65535))
-	
+
 	c = rr(65535)
-	for _ in range(h*w//16):
+	for _ in range(h*w//32):
 		d.point((rr(h),rr(w)), c)
-	
+
 	img.save("/tmp/image.png", format="PNG")
 	buffered = open("/tmp/image.png","rb").read()
 
@@ -85,7 +88,7 @@ def login_get():
 
 	equa, session['pincode'] = generatePincode()
 	captcha = generateCaptcha(equa)
-	
+
 	status = session['status']
 
 	return render_template('login.html', status=status, captcha=captcha)
@@ -93,7 +96,7 @@ def login_get():
 
 @app.route('/login', methods = ['POST'])
 def login_post():
-	
+
 	if not ('pincode' in request.form and 'username' in request.form and 'password' in request.form):
 		session['status'] = "Malformed request, missing parameter"
 		return redirect(request.url)
@@ -108,10 +111,10 @@ def login_post():
 
 	elif ( request.form['username'] and request.form['password'] ) \
 		and ( request.form['username'] == 'admin' and request.form['password'] == 'suckit' ) :
-		
+
 		session['status'] = r'victory !!'
 		return render_template('flag.html')
-	
+
 	else:
 		session['status'] = 'Invalid login or password'
 		return redirect(request.url)
