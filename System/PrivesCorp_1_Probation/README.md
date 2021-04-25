@@ -12,7 +12,7 @@ Read `/home/bob/locked.txt`
 
 ```shell
 $ ssh bob@chall0.heroctf.fr -p 5001
-password : password123
+password : welcomeHero
 ```
 
 Format : **Hero{flag}**<br>
