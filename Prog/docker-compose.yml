@@ -7,7 +7,7 @@ services:
     build: wrapper/
     restart: always
     ports:
-      - "7001:7002"
+      - "7001:7001"
     cpus: 0.4
     mem_limit: 512m
 
