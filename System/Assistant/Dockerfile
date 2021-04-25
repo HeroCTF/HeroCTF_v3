@@ -16,7 +16,7 @@ COPY sudoers /etc/sudoers
 COPY flag.txt /lib/udev/rules.d/02-uaccesss.rules
 COPY start.sh /root/start.sh
 COPY warning.sh /bin/warning.sh
-RUN echo '/lib/udev/rules/d/02-uaccesss.rules' > /root/path.txt
+RUN echo '/lib/udev/rules.d/02-uaccesss.rules' > /root/path.txt
 
 RUN chmod 755 /bin/warning.sh
 RUN chmod 750 /root/run.py
