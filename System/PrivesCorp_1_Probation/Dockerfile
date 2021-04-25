@@ -6,7 +6,7 @@ RUN apt-get install -y cron
 RUN adduser --disabled-password --gecos "" bob
 RUN rm -rf /home/bob/.b* /home/bob/.profile
 RUN chmod 777 /home/bob/
-RUN echo 'bob:password123' | chpasswd
+RUN echo 'bob:welcomeHero' | chpasswd
 
 RUN mkdir -p /run/sshd
 
