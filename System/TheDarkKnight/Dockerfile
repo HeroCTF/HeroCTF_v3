@@ -4,7 +4,7 @@ RUN apt update && apt install openssh-server sudo -y
 RUN apt-get -y install openssh-client
 
 RUN adduser --no-create-home --disabled-password --gecos "" gordon
-RUN echo 'gordon:gotham' | chpasswd
+RUN echo 'gordon:password123' | chpasswd
 RUN mkdir -p /home/gordon/.ssh
 RUN chown gordon:gordon /home/gordon/.ssh
 USER gordon
