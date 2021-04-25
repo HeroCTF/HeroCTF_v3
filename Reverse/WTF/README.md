@@ -6,7 +6,7 @@ Reverse
 
 ### Description
 
-Find the flag in this android application.
+Can you resolve this problem ?
 
 Format : **Hero{flag}**<br>
 Author : **SoEasY**

@@ -5,7 +5,7 @@ COPY ./src /app
 
 RUN apk update \
     && apk add --virtual build-deps gcc python3-dev musl-dev \
-    && apk add jpeg-dev zlib-dev libjpeg py-pip \
+    && apk add jpeg-dev zlib-dev libjpeg py-pip freetype freetype-dev \
     && adduser -D app
 
 RUN chown -R app:app /app

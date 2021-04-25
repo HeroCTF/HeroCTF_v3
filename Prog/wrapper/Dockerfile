@@ -16,5 +16,5 @@ RUN chown player:player /wrapped/chall.py
 RUN chmod 4755 /wrapped/chall.py
 RUN chmod 4755 /wrapped/entry.sh
 
-EXPOSE 7002
+EXPOSE 7001
 ENTRYPOINT ["/wrapped/entry.sh"]

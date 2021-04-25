@@ -38,9 +38,9 @@ chmod("/home/brian/order.cmd", 0o777) #Make sure the runner can read it
 try:
     open("/root/run.py", "r")
     filename = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(10))+".txt"
-    system("/usr/bin/python3 /root/run.py {}".format(filename))
     print("[+] The output will be saved to /tmp/"+filename)
     print("See you around !")
+    system("/usr/bin/python3 /root/run.py {}".format(filename))
 except:
     print("Run me as root !")
     system("rm -f order.cmd")

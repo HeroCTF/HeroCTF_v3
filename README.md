@@ -45,9 +45,9 @@ Github  : https://github.com/HeroCTF
 | [Fat boy](Reverse/fatBoy)                                        | Reverse       | SoEasY     | 125    |
 | [WTF](Reverse/WTF)                                               | Reverse       | SoEasY     | 250    |
 | [EasyAssembly](Reverse/EasyAssembly)                             | Reverse       | SoEasY     | 40     |
-| [PrivesCorp#1 : Probation](System/PrivesCorp_1_Probation)        | System        | Log_s      | 50     |
-| [PrivesCorp#2 : Motherload](System/PrivesCorp_2_Motherload)      | System        | Log_s      | 75     |
-| [PrivesCorp#3 : HelpMe](System/PrivesCorp_3_HelpMe)              | System        | Log_s      | 100    |
+| [PrivesCorp#1 : Probation](System/PrivesCorp_1_Probation)        | System        | Log_s      | 100    |
+| [PrivesCorp#2 : Motherload](System/PrivesCorp_2_Motherload)      | System        | Log_s      | 125    |
+| [PrivesCorp#3 : HelpMe](System/PrivesCorp_3_HelpMe)              | System        | Log_s      | 150    |
 | [PrivesCorp#4 : GoDeep](System/PrivesCorp_4_GoDeep)              | System        | Log_s      | 200    |
 | [Assistant](System/Assistant)                                    | System        | Log_s      | 75     |
 | [The Dark Knight](System/TheDarkKnight)                          | System        | Log_s      | 50     |
