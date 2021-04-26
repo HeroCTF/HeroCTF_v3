@@ -10,7 +10,7 @@ Welcome ! This machine is equiped with the next generation personnal assistant t
 
 ```shell
 $ ssh brian@chall0.heroctf.fr -p 5000
-password : password123
+password : here_to_assist
 ```
 
 Format : **Hero{flag}**<br>

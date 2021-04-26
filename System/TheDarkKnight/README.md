@@ -14,7 +14,7 @@ Good luck.
 
 ```shell
 $ ssh gordon@chall0.heroctf.fr -p 5005
-password : password123
+password : gotham
 ```
 
 Format : **Hero{flag}**<br>

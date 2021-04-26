@@ -95,10 +95,10 @@ while True:
 
 		if str(h) == str(hashFromSignature):
 			print(congrat_banner)
-		
-		# elif cmd == "help me I'm lost":	
+
+		# elif cmd == "help me I'm lost":
 		# 	print('You need to sign the string : "the_proof_of_your_love" and send it')
-		
+
 		else :
 			print("I don't believe you >:c")
 
