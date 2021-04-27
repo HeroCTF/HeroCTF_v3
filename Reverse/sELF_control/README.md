@@ -25,7 +25,8 @@ Author : **SoEasY**
 The title of the challenge is containing a clue : "ELF".
 We can check the ELF header then (see wikipedia [here](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format), a we find that :
 - The architecture is not correct (IA-64 instead of amd64)
-- The entry point is 0x10A1 instead of 0x10A0
+- The entry point is 0x10A1 instead of 0x10A0 (see `\_start` and `start`)
+- 
 ![IDA screenshot](IDA_ENTRY_POINT.png)
 
 #### Solution
