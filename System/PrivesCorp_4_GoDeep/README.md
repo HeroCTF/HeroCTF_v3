@@ -39,8 +39,9 @@ IndexError: string index out of range
 ```
 
 The message error allows us to rebuild the pass :
-    - The first part has to match `^[^A-RT-Za-z0-9]e[s].$` -> `Ses.` (with `.` any character we want)
-    - The second part has to match `chr(97)+chr(109)+chr(101)` -> `ame`
+ - The first part has to match `^[^A-RT-Za-z0-9]e[s].$` -> `Ses.` (with `.` any character we want)
+ - The second part has to match `chr(97)+chr(109)+chr(101)` -> `ame`
+
 You'll notice that the ssh_arg[3] is overlaping. So the pass is `Sesame`.
 
 ```
