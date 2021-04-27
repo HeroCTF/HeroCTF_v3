@@ -22,9 +22,7 @@ Author : **SoEasY**
 
 ### Write up
 
-After reversing the binary (quite annoying beacause of C++ and ARM arch :D), we find that this is just an implementation of base64 with a custom alphabet.
-
-#### by SoEasY
+After reversing the binary (quite annoying beacause of C++ and ARM arch :D), we find that this is just an implementation of base64 with a custom ciphered alphabet, which will be xored with 0x42 at runtime.
 
 ```python
 #!/usr/bin/env python3
