@@ -19,6 +19,48 @@ Author : **Log_s**
 
 ### Write up
 
+The very first step is to get into the jail. When trying to connect through SSH, the connexion will instantly close, and tell you to ask nicely. You can actually pass arguments to SSH. Let's say please.
+
+```
+$ ssh bob@chall0.heroctf.fr -p 5004 please
+bob@localhost's password: 
+That's better, but what's the magik word ?
+```
+
+Ok so that's not it. If we fool around a little bit, we'll see that we're thrown an error to, when the argument is to short.
+
+```
+$ ssh bob@chall0.heroctf.fr -p 5004 a     
+bob@localhost's password: 
+Traceback (most recent call last):
+ File "/home/bob/shell.py", line 32, in <module>
+  if(ssh_arg[3]+ssh_arg[4]+ssh_arg[5] != chr(97)+chr(109)+chr(101) or re.match(re.compile("^[^A-RT-Za-z0-9]e[s].$"), ssh_arg[0]+ssh_arg[1]+ssh_arg[2]+ssh_arg[3]) == None):
+IndexError: string index out of range
+```
+
+The message error allows us to rebuild the pass :
+    - The first part has to match `^[^A-RT-Za-z0-9]e[s].$` -> `Ses.` (with `.` any character we want)
+    - The second part has to match `chr(97)+chr(109)+chr(101)` -> `ame`
+You'll notice that the ssh_arg[3] is overlaping. So the pass is `Sesame`.
+
+```
+$ ssh bob@chall0.heroctf.fr -p 5004 Sesame
+bob@localhost's password: 
+
+Hmmm I should have bariccaded myself better then that... Now that you are here, you can't get out, so it doesn't matter ;). I made sure the document is well hidden.
+
+
+/===================\
+|| Welcome to jail ||
+=====================
+|| | | | |H| | | | ||
+=====================
+
+bob@godeep > 
+```
+
+We're in ! Now let's get out ??
+
 First thing we can establish, is that there is a 39 character limit, that import and builtins are not usable, and that variables are not kept from one line to another.
 
 We also notice that some words are filtered, like `dir`, and others are completely banned, like `builtins`. The difference is that filtered words are just taken out of the input before it being executed, whereas banned words prevent the input of being executed at all.
