@@ -21,12 +21,28 @@ Author : **xanhacks**
 
 ### Write up
 
+The goal here is to retrieve the flag, one character at a time. The *msg* variable is represented like this :
+
 ```
-============== 3 blocks ===========  1 block    1 block
-[14 bytes] + [payload] + [20 bytes] + [flag] + [10 bytes] 
-34 bytes + payload are send to us before the flag
+============== 3 blocks ===========   ~1 block    ~1 block
+[14 bytes] + [payload] + [20 bytes] +  [flag]  + [10 bytes]
+payload = account_id
+34 bytes + payload are send before the flag
 48-34=14
 ```
+
+If you send a payload with a size of 14 bytes (14 chars) the flag will start on the fourth block. So, if you send only 13 chars, the first char of the flag will be on the end of the third block.
+
+Third block : `our password : <fisrt_char_of_the_flag>`. So you can bruteforce it by sending :
+
+```
+our password : a
+our password : b
+our password : c
+...
+```
+
+To do this you can add two bytes to the the first 14 bytes to complete the block, then write `our password : a`, ... and try to brute the flag.
 
 Let's make a solve script in python :
 
