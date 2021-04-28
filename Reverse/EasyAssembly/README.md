@@ -65,7 +65,7 @@ main:
         call    puts@PLT        #
 ```
 
-So we can see here that at the end of the main function, the alue of `isGood` must be zero to print the flag.
+So we can see here that at the end of the main function, the value of `isGood` must be zero to print the flag.
 
 Earlier in the programm we can see that the input will be divided by 4 via the `sarl  $2, -4(%rbp)` instruction (divided by 2, 2 times) and stocked in a new int called `modified`. After that, the result will be compared with the int value `1337404`.
 
