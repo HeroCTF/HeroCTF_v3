@@ -27,7 +27,7 @@ They will be useful later. Then, when we look at the metadata of the file :
 
 ![image](metadata.png)
 
-We find a base64 string, which when decoded tells us that we can use pdf_hide.
+We find a base64 string : This message means that we have to think about how to hide info in a pdf with a password. So we can think about pdf_hide
 
 So we try to extract the data using pdf_hide using one of the two passwords. 
 We find a base64 string, which when decoded tells us that we can use pdf_hide.
