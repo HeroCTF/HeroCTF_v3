@@ -91,4 +91,4 @@ Github  : https://github.com/HeroCTF
 
 
 
-**Total : XX challenges (XXXX points)**
+**Total : 73 challenges (7321 points)**
